@@ -1,0 +1,8 @@
+.mainContainer {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  justify-content: center;
+  background-color: red;
+  margin-top: 50px;
+}
