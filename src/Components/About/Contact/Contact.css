@@ -16,7 +16,7 @@
 
 .contactText {
   pointer-events: none;
-  line-height: 10px;
+  line-height: 5px;
   font-family: 'Lato', sans-serif;
   display: flex;
   align-items: center;
@@ -32,6 +32,14 @@
   margin: 30px;
 }
 
+.socialIconStyle {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
 @media(min-width: 1450px) {
   .contactHeader {
     font-size: 40px;
@@ -43,14 +51,14 @@
   }
 
   .contactContainer{
-      width: 25vw;
+      width: 35vw;
       height: auto;
       margin-top: 40vh;
       margin-left: 10vw;
   }
 }
 
-@media(max-width: 1450px) and (min-width: 1000px)  {
+@media(max-width: 1450px) and (min-width: 1100px)  {
   .contactHeader {
     font-size: 35px;
     color: black;
@@ -63,12 +71,12 @@
   .contactContainer{
       width: 35vw;
       height: auto;
-      margin-top: 47.5vh;
+      margin-top: 40vh;
       margin-left: 10vw;
   }
 }
 
-@media(max-width: 1000px) {
+@media(max-width: 1100px) {
   .contactHeader {
     font-size: 33px;
     color: black;
@@ -77,6 +85,8 @@
   .contactContainer{
       height: auto;
       margin-top: 45vh;
-      margin-left: 17.5vw;
+      width: 70%;
+      margin-left: 15%;
+      margin-right: 15%;
   }
 }

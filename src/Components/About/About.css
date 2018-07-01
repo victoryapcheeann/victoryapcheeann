@@ -30,25 +30,9 @@
   position: absolute;
   width: 140%;
   height: 100%;
-  cursor: pointer;
 }
 
 @media(min-width: 1450px) {
-  .container > div {
-    height: 93vh;
-    width: auto;
-  }
-
-  .slopeEnd {
-    clip-path: polygon(26% 100%, 100% 67%, 100% 100%, 25% 100%);
-    position: absolute;
-    width: 140%;
-    height: 100%;
-    cursor: pointer;
-  }
-}
-
-@media(max-width: 1450px) and (min-width: 1000px)  {
   .container > div {
     height: 93vh;
     width: auto;
@@ -59,11 +43,24 @@
     position: absolute;
     width: 140%;
     height: 100%;
-    cursor: pointer;
   }
 }
 
-@media(max-width: 1000px) and (min-width: 800px) {
+@media(max-width: 1450px) and (min-width: 1100px)  {
+  .container > div {
+    height: 93vh;
+    width: auto;
+  }
+
+  .slopeEnd {
+    clip-path: polygon(100% 79%, 26% 100%, 100% 100%);
+    position: absolute;
+    width: 140%;
+    height: 100%;
+  }
+}
+
+@media(max-width: 1100px) and (min-width: 800px) {
   .container > div {
     height: 150vh;
     width: 80%;
@@ -73,7 +70,7 @@
 
 @media(max-width: 800px) {
   .container > div {
-    height: 150vh;
+    height: 170vh;
   }
 }
 
@@ -81,11 +78,6 @@
     0% {background-position: 0% 50%;}
     50% {background-position: 100% 50%;}
     100% {background-position: 0% 50%;}
-}
-
-.contactContainer {
-  margin-top: 15vh;
-  margin-left: 50vw;
 }
 
 .aboutGradient {

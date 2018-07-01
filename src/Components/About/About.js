@@ -6,6 +6,7 @@ import profilePicture from '../../image/profilePicture.png'
 
 import TitleComponent from './Title/Title'
 import ContactComponent from './Contact/Contact'
+import SkillsComponent from './Skills/Skills'
 
 const IntroPage = () => (
     <div>
@@ -18,6 +19,7 @@ const IntroPage = () => (
       <div className="slopeEnd aboutGradient"/>
       <TitleComponent />
       <ContactComponent />
+      <SkillsComponent />
     </div>
 )
 
