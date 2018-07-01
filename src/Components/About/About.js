@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './About.css';
 import ParticleAnimation from 'react-particle-animation'
 import profilePicture from '../../image/profilePicture.png'
+import TitleComponent from './Title/Title'
 
 const IntroPage = () => (
     <div>
@@ -13,30 +14,7 @@ const IntroPage = () => (
         <div className="slopeBegin" />
       </ParticleAnimation>
       <div className="slopeEnd aboutGradient"/>
-        <div className="aboutText aboutHeader containerStyle aboutContainer">
-          <div className="aboutTextContainer">
-            <div className="meContainer">
-              <img src={profilePicture} className="profilePic" alt="Avatar"/>
-              <div className="titleContainer">
-                <p className="myName">Victor Yap</p>
-                <p className="jobTitle">Software Engineer</p>
-              </div>
-            </div>
-            <div className="stripe aboutGradient"/>
-              <div className="aboutDescription">
-                  <p>I turn complex idea into
-                  <p className ="rw-words rw-words-1">
-                      <span>elegant products</span>
-                      <span>beautiful interfaces</span>
-                      <span>simple concepts</span>
-                  </p>
-                  </p>
-              </div>
-          </div>
-        </div>
-        <div className="contactContainer containerStyle">
-        2
-        </div>
+      <TitleComponent />
     </div>
 )
 

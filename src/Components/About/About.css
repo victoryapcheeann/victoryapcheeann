@@ -6,7 +6,6 @@
   background-color:transparent;
 }
 
-/* 1.0 Main CSS */
 .containerStyle {
   display: flex;
   position: absolute;
@@ -36,6 +35,37 @@
   cursor: pointer;
 }
 
+
+
+@media(min-width: 1200px) {
+  .slopeEnd {
+    clip-path: polygon(26% 100%, 100% 67%, 100% 100%, 25% 100%);
+  }
+}
+
+@media(max-width: 1200px) and (min-width: 800px)  {
+  .slopeEnd {
+    clip-path: polygon(100% 79%, 26% 100%, 100% 100%);
+  }
+}
+
+@media(max-width: 800px) {
+  .slopeEnd {
+      clip-path: polygon(100% 90%, 26% 100%, 100% 100%);
+  }
+}
+
+@keyframes BackgroundGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+.contactContainer {
+  margin-top: 15vh;
+  margin-left: 50vw;
+}
+
 .aboutGradient {
   background: linear-gradient(
     to right,
@@ -44,237 +74,4 @@
   );
   background-size: 150% 150%;
   animation: BackgroundGradient 3s ease infinite;
-}
-
-@media(min-width: 1200px) {
-  .number {
-    font-size: 450px;
-    color: #fff;
-  }
-
-  .aboutHeader {
-    font-size: 45px;
-    color: black;
-  }
-
-  .aboutDescription {
-    font-size: 25px;
-  }
-
-  .jobTitle {
-    font-size: 20px;
-    margin-left:20px;
-    margin-top: 30px;
-  }
-
-  .rw-words{
-      margin-left: 30px;
-  }
-
-  .aboutContainer{
-      height: 30vh;
-  }
-
-  .slopeEnd {
-    clip-path: polygon(26% 100%, 100% 67%, 100% 100%, 25% 100%);
-  }
-}
-
-@media(max-width: 1200px) and (min-width: 800px)  {
-  .number {
-    font-size: 300px;
-    color: #fff;
-  }
-
-  .aboutHeader {
-    font-size: 40px;
-    color: black;
-  }
-
-  .aboutDescription {
-    font-size: 20px;
-  }
-
-  .jobTitle {
-    font-size: 20px;
-    margin-left:15px;
-    margin-top: 20px;
-  }
-
-  .rw-words{
-      margin-left: 25px;
-  }
-
-  .aboutContainer{
-      height: 25vh;
-  }
-
-  .slopeEnd {
-    clip-path: polygon(100% 79%, 26% 100%, 100% 100%);
-  }
-}
-
-@media(max-width: 800px) {
-  .number {
-    font-size: 200px;
-    color: #fff;
-  }
-
-  .aboutHeader {
-    font-size: 30px;
-    color: black;
-  }
-
-  .aboutDescription {
-    font-size: 20px;
-  }
-
-  .jobTitle {
-    font-size: 15px;
-    margin-left:10px;
-    margin-top: 15px;
-  }
-
-  .rw-words{
-      margin-left: 15px;
-  }
-
-  .aboutContainer{
-      height: 25vh;
-  }
-
-  .slopeEnd {
-      clip-path: polygon(100% 90%, 26% 100%, 100% 100%);
-  }
-}
-
-/* 1.0) About Section CSS */
-/* Stripe */
-.stripe {
-  height: 5px;
-  width: auto;
-  margin-top: 10px;
-}
-
-.aboutText {
-  pointer-events: none;
-  line-height: 10px;
-  font-family: 'Lato', sans-serif;
-}
-
-.myName {
-  margin: 10px;
-  position: relative;
-}
-
-.profilePic {
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-}
-
-.mainContainer {
-  position: absolute;
-}
-
-.aboutContainer {
-  margin-top: 15vh;
-  margin-left: 10vw;
-}
-
-.meContainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-}
-
-.titleContainer {
-  display: flex;
-  align-items: left;
-  justify-content: center;
-  flex-direction: column;
-  margin-top: 20px;
-}
-
-.aboutDescription {
-  line-height: 0.5em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.aboutTextContainer {
-  margin: 30px;
-}
-
-.aboutDescription {
-  font-size: 25px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
-@keyframes BackgroundGradient {
-    0% {background-position: 0% 50%;}
-    50% {background-position: 100% 50%;}
-    100% {background-position: 0% 50%;}
-}
-
-.rw-words{
-    width: auto;
-}
-
-.rw-words-1 span{
-    position: absolute;
-    opacity: 0;
-    -webkit-animation: rotateWord 9s linear infinite 0s;
-    -ms-animation: rotateWord 9s linear infinite 0s;
-    animation: rotateWord 9s linear infinite 0s;
-}
-.rw-words-1 span:nth-child(2) {
-    -webkit-animation-delay: 3s;
-    -ms-animation-delay: 3s;
-    animation-delay: 3s;
-}
-.rw-words-1 span:nth-child(3) {
-    -webkit-animation-delay: 6s;
-    -ms-animation-delay: 6s;
-    animation-delay: 6s;
-}
-
-@-webkit-keyframes rotateWord {
-    0% { opacity: 0; }
-    2% { opacity: 0; -webkit-transform: translateY(-30px); }
-    5% { opacity: 1; -webkit-transform: translateY(0px);}
-    17% { opacity: 1; -webkit-transform: translateY(0px); }
-    20% { opacity: 0; -webkit-transform: translateY(30px); }
-    80% { opacity: 0; }
-    100% { opacity: 0; }
-}
-@-ms-keyframes rotateWord {
-    0% { opacity: 0; }
-    2% { opacity: 0; -ms-transform: translateY(-30px); }
-    5% { opacity: 1; -ms-transform: translateY(0px);}
-    17% { opacity: 1; -ms-transform: translateY(0px); }
-    20% { opacity: 0; -ms-transform: translateY(30px); }
-    80% { opacity: 0; }
-    100% { opacity: 0; }
-}
-@keyframes rotateWord {
-    0% { opacity: 0; }
-    2% { opacity: 0; -webkit-transform: translateY(-30px); transform: translateY(-30px); }
-    5% { opacity: 1; -webkit-transform: translateY(0px); transform: translateY(0px);}
-    17% { opacity: 1; -webkit-transform: translateY(0px); transform: translateY(0px); }
-    20% { opacity: 0; -webkit-transform: translateY(30px); transform: translateY(30px); }
-    80% { opacity: 0; }
-    100% { opacity: 0; }
-}
-
-/* 3.0 Contact Section CSS  */
-.contactContainer {
-  margin-top: 15vh;
-  margin-left: 50vw;
 }

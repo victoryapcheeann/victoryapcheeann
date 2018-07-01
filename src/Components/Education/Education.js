@@ -1,17 +1,13 @@
 import React, { Component } from 'react';
-import styled from "styled-components";
+import './Education.css';
 
-const EducationStyle = styled.div`
-    height: 100vh;
-    width: 100vw;
-`;
 
 class Education extends Component{
   render() {
     return (
-      <EducationStyle>
+      <div className="educationContainer">
         <p>Education</p>
-      </EducationStyle>
+      </div>
     );
   }
 }

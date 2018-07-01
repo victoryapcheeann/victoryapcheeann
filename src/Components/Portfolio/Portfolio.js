@@ -5,8 +5,8 @@ import './Portfolio.css';
 class Portfolio extends Component{
   render() {
     return (
-      <div className="mainContainer">
-        <p>See my works</p>
+      <div className="portfolioContainer">
+        <p>Portfolio</p>
       </div>
     );
   }

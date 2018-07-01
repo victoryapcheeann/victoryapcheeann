@@ -1,20 +1,15 @@
 import React, { Component } from 'react';
-import styled from "styled-components";
+import './Career.css';
 
-const CareerStyle = styled.div`
-  height: 100vh;
-  width: 100vw;
-`;
 
 class Career extends Component{
   render() {
     return (
-      <CareerStyle>
+      <div className="careerContainer">
         <p>Career</p>
-      </CareerStyle>
+      </div>
     );
   }
 }
-
 
 export default Career;

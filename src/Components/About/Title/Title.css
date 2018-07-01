@@ -1,9 +1,10 @@
-.containerStyle {
+.titleContainer {
   display: flex;
   position: absolute;
   z-index: 1;
   align-content: left;
-  justify-content: left;
+  justify-content: center;
+  flex-direction: column;
   width: auto;
   background-color: rgba(255, 255, 255,  0.6);
   box-shadow: 0 4px  4px  rgba(157, 204, 250, .1),
@@ -14,7 +15,7 @@
             8px 64px 64px rgba(157, 204, 250,.15);
 }
 
-.aboutGradient {
+.titleGradient {
   background: linear-gradient(
     to right,
     deeppink 0%,
@@ -24,103 +25,13 @@
   animation: BackgroundGradient 3s ease infinite;
 }
 
-@media(min-width: 1200px) {
-  .number {
-    font-size: 450px;
-    color: #fff;
-  }
-
-  .aboutHeader {
-    font-size: 45px;
-    color: black;
-  }
-
-  .aboutDescription {
-    font-size: 25px;
-  }
-
-  .jobTitle {
-    font-size: 20px;
-    margin-left:20px;
-    margin-top: 30px;
-  }
-
-  .rw-words{
-      margin-left: 30px;
-  }
-
-  .aboutContainer{
-      height: 30vh;
-  }
-}
-
-@media(max-width: 1200px) and (min-width: 800px)  {
-  .number {
-    font-size: 300px;
-    color: #fff;
-  }
-
-  .aboutHeader {
-    font-size: 40px;
-    color: black;
-  }
-
-  .aboutDescription {
-    font-size: 20px;
-  }
-
-  .jobTitle {
-    font-size: 20px;
-    margin-left:15px;
-    margin-top: 20px;
-  }
-
-  .rw-words{
-      margin-left: 25px;
-  }
-
-  .aboutContainer{
-      height: 25vh;
-  }
-}
-
-@media(max-width: 800px) {
-  .number {
-    font-size: 200px;
-    color: #fff;
-  }
-
-  .aboutHeader {
-    font-size: 30px;
-    color: black;
-  }
-
-  .aboutDescription {
-    font-size: 15px;
-  }
-
-  .jobTitle {
-    font-size: 15px;
-    margin-left:10px;
-    margin-top: 15px;
-  }
-
-  .rw-words{
-      margin-left: 15px;
-  }
-
-  .aboutContainer{
-      height: 25vh;
-  }
-}
-
 .stripe {
   height: 5px;
   width: auto;
   margin-top: 10px;
 }
 
-.aboutText {
+.titleText {
   pointer-events: none;
   line-height: 10px;
   font-family: 'Lato', sans-serif;
@@ -141,11 +52,6 @@
   position: absolute;
 }
 
-.aboutContainer {
-  margin-top: 15vh;
-  margin-left: 10vw;
-}
-
 .meContainer {
   display: flex;
   align-items: center;
@@ -153,15 +59,7 @@
   flex-direction: row;
 }
 
-.titleContainer {
-  display: flex;
-  align-items: left;
-  justify-content: center;
-  flex-direction: column;
-  margin-top: 20px;
-}
-
-.aboutDescription {
+.titleDescription {
   line-height: 0.5em;
   display: flex;
   align-items: center;
@@ -169,16 +67,136 @@
   flex-direction: column;
 }
 
-.aboutTextContainer {
+.titleTextContainer {
   margin: 30px;
 }
 
-.aboutDescription {
+.titleDescription {
   font-size: 25px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+
+
+@media(min-width: 1200px) {
+  .number {
+    font-size: 450px;
+    color: #fff;
+  }
+
+  .titleHeader {
+    font-size: 45px;
+    color: black;
+  }
+
+  .titleDescription {
+    font-size: 25px;
+  }
+
+  .jobTitle {
+    font-size: 20px;
+    margin-left:20px;
+    margin-top: 30px;
+  }
+
+  .rw-words{
+      margin-left: 30px;
+  }
+
+  .titleContainer{
+      height: 30vh;
+  }
+
+  .slopeEnd {
+    clip-path: polygon(26% 100%, 100% 67%, 100% 100%, 25% 100%);
+  }
+
+  .titleContainer {
+    margin-top: 15vh;
+    margin-left: 10vw;
+  }
+}
+
+@media(max-width: 1200px) and (min-width: 800px)  {
+  .number {
+    font-size: 300px;
+    color: #fff;
+  }
+
+  .titleHeader {
+    font-size: 40px;
+    color: black;
+  }
+
+  .titleDescription {
+    font-size: 20px;
+  }
+
+  .jobTitle {
+    font-size: 20px;
+    margin-left:15px;
+    margin-top: 20px;
+  }
+
+  .rw-words{
+      margin-left: 25px;
+  }
+
+  .titleContainer{
+      height: 25vh;
+  }
+
+  .slopeEnd {
+    clip-path: polygon(100% 79%, 26% 100%, 100% 100%);
+  }
+
+  .titleContainer {
+    margin-top: 15vh;
+    margin-left: 10vw;
+  }
+}
+
+@media(max-width: 800px) {
+  .number {
+    font-size: 200px;
+    color: #fff;
+  }
+
+  .titleHeader {
+    font-size: 30px;
+    color: black;
+  }
+
+  .titleDescription {
+    font-size: 20px;
+  }
+
+  .jobTitle {
+    font-size: 15px;
+    margin-left:10px;
+    margin-top: 15px;
+  }
+
+  .rw-words{
+      margin-left: 15px;
+  }
+
+  .titleContainer{
+      height: 25vh;
+  }
+
+  .slopeEnd {
+      clip-path: polygon(100% 90%, 26% 100%, 100% 100%);
+  }
+
+  .titleContainer {
+    margin-top: 15vh;
+    margin-left: 17.5vw;
+  }
+}
+
 
 @keyframes BackgroundGradient {
     0% {background-position: 0% 50%;}
@@ -234,4 +252,10 @@
     20% { opacity: 0; -webkit-transform: translateY(30px); transform: translateY(30px); }
     80% { opacity: 0; }
     100% { opacity: 0; }
+}
+
+@keyframes BackgroundGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
 }
