@@ -5,7 +5,6 @@
   align-content: left;
   justify-content: center;
   flex-direction: column;
-  width: auto;
   background-color: rgba(255, 255, 255,  0.6);
   box-shadow: 0 4px  4px  rgba(157, 204, 250, .1),
             0 1px  6px  rgba(157, 204, 250, .05),
@@ -40,6 +39,11 @@
 .myName {
   margin: 10px;
   position: relative;
+}
+
+.jobTitle {
+  font-style: italic;
+  color: grey;
 }
 
 .profilePic {
@@ -80,14 +84,9 @@
 
 
 
-@media(min-width: 1200px) {
-  .number {
-    font-size: 450px;
-    color: #fff;
-  }
-
+@media(min-width: 1450px) {
   .titleHeader {
-    font-size: 45px;
+    font-size: 40px;
     color: black;
   }
 
@@ -106,27 +105,20 @@
   }
 
   .titleContainer{
+      width: 25vw;
       height: 30vh;
+      margin-top: 10vh;
+      margin-left: 10vw;
   }
 
   .slopeEnd {
     clip-path: polygon(26% 100%, 100% 67%, 100% 100%, 25% 100%);
   }
-
-  .titleContainer {
-    margin-top: 15vh;
-    margin-left: 10vw;
-  }
 }
 
-@media(max-width: 1200px) and (min-width: 800px)  {
-  .number {
-    font-size: 300px;
-    color: #fff;
-  }
-
+@media(max-width: 1450px) and (min-width: 1000px)  {
   .titleHeader {
-    font-size: 40px;
+    font-size: 35px;
     color: black;
   }
 
@@ -145,20 +137,18 @@
   }
 
   .titleContainer{
+      width: 35vw;
       height: 25vh;
+      margin-top: 15vh;
+      margin-left: 10vw;
   }
 
   .slopeEnd {
     clip-path: polygon(100% 79%, 26% 100%, 100% 100%);
   }
-
-  .titleContainer {
-    margin-top: 15vh;
-    margin-left: 10vw;
-  }
 }
 
-@media(max-width: 800px) {
+@media(max-width: 1000px) {
   .number {
     font-size: 200px;
     color: #fff;
@@ -185,15 +175,12 @@
 
   .titleContainer{
       height: 25vh;
+      margin-top: 15vh;
+      margin-left: 17.5vw;
   }
 
   .slopeEnd {
       clip-path: polygon(100% 90%, 26% 100%, 100% 100%);
-  }
-
-  .titleContainer {
-    margin-top: 15vh;
-    margin-left: 17.5vw;
   }
 }
 

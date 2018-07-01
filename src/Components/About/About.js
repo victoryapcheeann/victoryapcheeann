@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom';
 import './About.css';
 import ParticleAnimation from 'react-particle-animation'
 import profilePicture from '../../image/profilePicture.png'
+
 import TitleComponent from './Title/Title'
+import ContactComponent from './Contact/Contact'
 
 const IntroPage = () => (
     <div>
@@ -15,6 +17,7 @@ const IntroPage = () => (
       </ParticleAnimation>
       <div className="slopeEnd aboutGradient"/>
       <TitleComponent />
+      <ContactComponent />
     </div>
 )
 

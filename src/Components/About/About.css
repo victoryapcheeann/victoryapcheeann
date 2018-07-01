@@ -1,6 +1,5 @@
 .container > div {
   height: 93vh;
-  width: auto;
   display: flex;
   justify-content: left;
   background-color:transparent;
@@ -27,31 +26,54 @@
   z-index: -1;
 }
 
-.slopeBegin,
-.slopeEnd {
+.slopeBegin {
   position: absolute;
   width: 140%;
   height: 100%;
   cursor: pointer;
 }
 
+@media(min-width: 1450px) {
+  .container > div {
+    height: 93vh;
+    width: auto;
+  }
 
-
-@media(min-width: 1200px) {
   .slopeEnd {
     clip-path: polygon(26% 100%, 100% 67%, 100% 100%, 25% 100%);
+    position: absolute;
+    width: 140%;
+    height: 100%;
+    cursor: pointer;
   }
 }
 
-@media(max-width: 1200px) and (min-width: 800px)  {
+@media(max-width: 1450px) and (min-width: 1000px)  {
+  .container > div {
+    height: 93vh;
+    width: auto;
+  }
+
   .slopeEnd {
     clip-path: polygon(100% 79%, 26% 100%, 100% 100%);
+    position: absolute;
+    width: 140%;
+    height: 100%;
+    cursor: pointer;
+  }
+}
+
+@media(max-width: 1000px) and (min-width: 800px) {
+  .container > div {
+    height: 150vh;
+    width: 80%;
+    margin: auto;
   }
 }
 
 @media(max-width: 800px) {
-  .slopeEnd {
-      clip-path: polygon(100% 90%, 26% 100%, 100% 100%);
+  .container > div {
+    height: 150vh;
   }
 }
 
