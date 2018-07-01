@@ -6,7 +6,6 @@ import './App.css'
 
 import About from './Components/About/About';
 import Career from './Components/Career/Career';
-import Contact from './Components/Contact/Contact';
 import Education from './Components/Education/Education';
 import Portfolio from './Components/Portfolio/Portfolio';
 
