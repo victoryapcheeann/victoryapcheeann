@@ -13,12 +13,12 @@ class App extends Component {
   render() {
     return (
       <div className = 'MainStyle'>
-      <nav class="nav">
-        <input type="checkbox" class="nav__cb" id="menu-cb"/>
-        <div class="nav__content">
-          <ul class="nav__items">
-            <li class="nav__item">
-              <span class="nav__item-text" key = 'AboutKey'
+      <nav className="nav">
+        <input type="checkbox" className="nav__cb" id="menu-cb"/>
+        <div className="nav__content">
+          <ul className="nav__items">
+            <li className="nav__item">
+              <span className="nav__item-text" key = 'AboutKey'
               onClick={() => {scrollToComponent(
               this.about,
               { offset: 0, align: 'top', duration: 300, ease:'inExpo'});
@@ -26,8 +26,8 @@ class App extends Component {
                 About Me
               </span>
             </li>
-            <li class="nav__item">
-              <span class="nav__item-text" key = 'ProjectKey'
+            <li className="nav__item">
+              <span className="nav__item-text" key = 'ProjectKey'
               onClick={() => {scrollToComponent(
               this.portfolio,
               { offset: 0, align: 'top', duration: 300, ease:'inExpo'});
@@ -35,8 +35,8 @@ class App extends Component {
                 Portfolio
               </span>
             </li>
-            <li class="nav__item">
-              <span class="nav__item-text" key = 'CareerKey'
+            <li className="nav__item">
+              <span className="nav__item-text" key = 'CareerKey'
               onClick={() => {scrollToComponent(
               this.career,
               { offset: 0, align: 'top', duration: 300, ease:'inExpo'});
@@ -44,8 +44,8 @@ class App extends Component {
                 Career
               </span>
             </li>
-            <li class="nav__item">
-              <span class="nav__item-text" key = 'EducationKey'
+            <li className="nav__item">
+              <span className="nav__item-text" key = 'EducationKey'
               onClick={() => {scrollToComponent(
               this.education,
               { offset: 0, align: 'top', duration: 300, ease:'inExpo'});
@@ -55,7 +55,7 @@ class App extends Component {
             </li>
           </ul>
         </div>
-        <label class="nav__btn" for="menu-cb"></label>
+        <label className="nav__btn" for="menu-cb"></label>
       </nav>
         <div>
             <About className ='about' ref={(div) => { this.about = div;}}/>

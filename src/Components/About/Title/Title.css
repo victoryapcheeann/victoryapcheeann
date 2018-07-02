@@ -14,15 +14,7 @@
             8px 64px 64px rgba(157, 204, 250,.15);
 }
 
-.titleGradient {
-  background: linear-gradient(
-    to right,
-    deeppink 0%,
-    coral 100%
-  );
-  background-size: 150% 150%;
-  animation: BackgroundGradient 3s ease infinite;
-}
+
 
 .stripe {
   height: 5px;
@@ -33,7 +25,6 @@
 .titleText {
   pointer-events: none;
   line-height: 10px;
-  font-family: 'Lato', sans-serif;
 }
 
 .myName {
@@ -42,8 +33,8 @@
 }
 
 .jobTitle {
-  font-style: italic;
   color: grey;
+  font-family: 'Lora';
 }
 
 .profilePic {
@@ -69,6 +60,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  font-family: 'Lora';
 }
 
 .titleTextContainer {
@@ -186,13 +178,6 @@
   }
 }
 
-
-@keyframes BackgroundGradient {
-    0% {background-position: 0% 50%;}
-    50% {background-position: 100% 50%;}
-    100% {background-position: 0% 50%;}
-}
-
 .rw-words{
     width: auto;
 }
@@ -247,4 +232,10 @@
     0% {background-position: 0% 50%;}
     50% {background-position: 100% 50%;}
     100% {background-position: 0% 50%;}
+}
+
+.titleGradient {
+  background: linear-gradient(to right, #b2fefa, #0ed2f7); 
+  background-size: 500% 500%;
+  animation: BackgroundGradient 3s ease infinite;
 }

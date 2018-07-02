@@ -7,8 +7,7 @@ import WebFont from 'webfontloader';
 
 WebFont.load({
   google: {
-    families: ['PT Sans Narrow', 'sans-serif'],
-    families: ['Lato', 'sans-serif']
+    families: ['Lato', 'Qwigley', 'Lora']
   }
 });
 

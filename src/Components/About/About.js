@@ -11,9 +11,9 @@ import SkillsComponent from './Skills/Skills'
 const IntroPage = () => (
     <div>
       <ParticleAnimation
-        numParticles={200}
+        numParticles={400}
         interactive={true}
-        color={{r: 48, g: 140, b: 232, a: 255}}>
+        color={{r: 30, g: 217, b: 255, a: 255}}>
         <div className="slopeBegin" />
       </ParticleAnimation>
       <div className="slopeEnd aboutGradient"/>

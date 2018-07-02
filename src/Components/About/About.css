@@ -62,7 +62,7 @@
 
 @media(max-width: 1100px) and (min-width: 800px) {
   .container > div {
-    height: 150vh;
+    height: 170vh;
     width: 80%;
     margin: auto;
   }
@@ -81,11 +81,7 @@
 }
 
 .aboutGradient {
-  background: linear-gradient(
-    to right,
-    deeppink 0%,
-    coral 100%
-  );
-  background-size: 150% 150%;
-  animation: BackgroundGradient 3s ease infinite;
+  background: linear-gradient(to right, #b2fefa, #0ed2f7); 
+  background-size: 1500% 1500%;
+  animation: BackgroundGradient 10s ease infinite;
 }
