@@ -3,6 +3,7 @@
   display: flex;
   justify-content: left;
   background-color:transparent;
+  width: 100%;
 }
 
 .containerStyle {
@@ -21,28 +22,10 @@
             8px 64px 64px rgba(157, 204, 250,.15);
 }
 
-.slopeBegin {
-  clip-path: polygon(50% 0%, 100% 1%, 100% 73%, 26% 100%, 0 100%, 0% 60%, 0 0);
-  z-index: -1;
-}
-
-.slopeBegin {
-  position: absolute;
-  width: 140%;
-  height: 100%;
-}
-
 @media(min-width: 1450px) {
   .container > div {
     height: 93vh;
     width: auto;
-  }
-
-  .slopeEnd {
-    clip-path: polygon(100% 79%, 26% 100%, 100% 100%);
-    position: absolute;
-    width: 140%;
-    height: 100%;
   }
 }
 
@@ -51,26 +34,26 @@
     height: 93vh;
     width: auto;
   }
-
-  .slopeEnd {
-    clip-path: polygon(100% 79%, 26% 100%, 100% 100%);
-    position: absolute;
-    width: 140%;
-    height: 100%;
-  }
 }
 
 @media(max-width: 1100px) and (min-width: 800px) {
   .container > div {
     height: 170vh;
     width: 80%;
-    margin: auto;
+  }
+
+  .ocean, .wave {
+    display: none;
   }
 }
 
 @media(max-width: 800px) {
   .container > div {
     height: 170vh;
+  }
+
+  .ocean, .wave {
+    display: none;
   }
 }
 
@@ -81,7 +64,49 @@
 }
 
 .aboutGradient {
-  background: linear-gradient(to right, #b2fefa, #0ed2f7); 
+  background: linear-gradient(to right, #b2fefa, #0ed2f7);
   background-size: 1500% 1500%;
   animation: BackgroundGradient 10s ease infinite;
+}
+
+.ocean {
+  height: 2%;
+  width:100%;
+  position:absolute;
+  bottom:0;
+  left:0;
+}
+
+.wave {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x;
+  position: absolute;
+  top: -198px;
+  width: 6400px;
+  height: 198px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+  transform: translate3d(0, 0, 0);
+}
+
+.wave:nth-of-type(2) {
+  top: -175px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+  opacity: 1;
+}
+
+@keyframes wave {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -1600px;
+  }
+}
+
+@keyframes swell {
+  0%, 100% {
+    transform: translate3d(0,-25px,0);
+  }
+  50% {
+    transform: translate3d(0,5px,0);
+  }
 }

@@ -35,16 +35,16 @@ class Contact extends Component{
               <br />
               <div className="socialIconStyle">
                 <a href="https://www.facebook.com/chee.ann.14">
-                  <FaFacebookSquare size={30} color="SteelBlue"/>
+                  <FaFacebookSquare size={40} color="SteelBlue"/>
                 </a>
                 <a href="https://www.linkedin.com/in/victor-yap-49b713b9/">
-                  <FaLinkedinSquare size={30} color="DodgerBlue"/>
+                  <FaLinkedinSquare size={40} color="DodgerBlue"/>
                 </a>
                 <a href="https://github.com/victoryapcheeann">
-                  <FaGithubSquare size={30} color="LightSlateGrey"/>
+                  <FaGithubSquare size={40} color="LightSlateGrey"/>
                 </a>
                 <a href="https://plus.google.com/u/0/109099092605916033996">
-                  <FaGooglePlusSquare size={30} color="IndianRed"/>
+                  <FaGooglePlusSquare size={40} color="IndianRed"/>
                 </a>
               </div>
             </div>

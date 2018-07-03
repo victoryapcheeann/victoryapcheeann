@@ -14,8 +14,6 @@
             8px 64px 64px rgba(157, 204, 250,.15);
 }
 
-
-
 .stripe {
   height: 5px;
   width: auto;
@@ -102,10 +100,6 @@
       margin-top: 5vh;
       margin-left: 10vw;
   }
-
-  .slopeEnd {
-    clip-path: polygon(26% 100%, 100% 67%, 100% 100%, 25% 100%);
-  }
 }
 
 @media(max-width: 1450px) and (min-width: 1100px)  {
@@ -133,10 +127,6 @@
       height: 25vh;
       margin-top: 7vh;
       margin-left: 10vw;
-  }
-
-  .slopeEnd {
-    clip-path: polygon(100% 79%, 26% 100%, 100% 100%);
   }
 }
 
@@ -171,10 +161,6 @@
       width: 70%;
       margin-left: 15%;
       margin-right: 15%;
-  }
-
-  .slopeEnd {
-      clip-path: polygon(100% 90%, 26% 100%, 100% 100%);
   }
 }
 
@@ -235,7 +221,7 @@
 }
 
 .titleGradient {
-  background: linear-gradient(to right, #b2fefa, #0ed2f7); 
+  background: linear-gradient(to right, #3399ff, #cce6ff);
   background-size: 500% 500%;
   animation: BackgroundGradient 3s ease infinite;
 }

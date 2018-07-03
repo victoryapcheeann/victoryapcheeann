@@ -14,9 +14,11 @@ const IntroPage = () => (
         numParticles={400}
         interactive={true}
         color={{r: 30, g: 217, b: 255, a: 255}}>
-        <div className="slopeBegin" />
       </ParticleAnimation>
-      <div className="slopeEnd aboutGradient"/>
+      <div className="ocean">
+        <div className="wave"></div>
+        <div className="wave"></div>
+      </div>
       <TitleComponent />
       <ContactComponent />
       <SkillsComponent />
