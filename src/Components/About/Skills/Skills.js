@@ -29,7 +29,12 @@ class Skills extends Component{
         <div className="skillsContainer">
           <div className="skillsDetailContainer">
             <div className="skillsDetailStyle">
-              <p className="skillsHeader">My Skills</p>
+            <div className="headerLoaderStyle">
+              <div class="loader-item">
+                <div class="loader loader-1"></div>
+              </div>
+                <p className="skillsHeader">My Skills</p>
+            </div>
               <div>
                 {mySkills.map((mySkill) => (
                   <span class="skillBtn">{mySkill.skill}</span>
@@ -38,7 +43,13 @@ class Skills extends Component{
             </div>
             <br />
             <div className="skillsDetailStyle">
-              <p className="skillsHeader">To Learn List</p>
+            <div className="headerLoaderStyle">
+              <div class="loader-item">
+
+                  <div class="loader loader-2"></div>
+                </div>
+                <p className="skillsHeader">To Learn List</p>
+              </div>
               <div>
                 {myLearns.map((myLearn) => (
                   <span class="learnBtn">{myLearn.learn}</span>
@@ -47,7 +58,12 @@ class Skills extends Component{
             </div>
             <br />
             <div className="skillsDetailStyle">
+            <div className="headerLoaderStyle">
+              <div class="loader-item">
+                <div class="loader loader-3"></div>
+              </div>
               <p className="skillsHeader">My Interest</p>
+            </div>
               <div>
                 <GoPaintcan size={30} color="DodgerBlue"/>
                 <span class="interestBtn">UI/UX Design</span> <br />

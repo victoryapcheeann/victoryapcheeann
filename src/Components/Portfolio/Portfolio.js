@@ -8,13 +8,8 @@ class Portfolio extends Component{
   constructor(props) {
     super(props)
     this.state = {
-        expanded: 'false'
+        expanded: false
     };
-  }
-  componentDidMount() {
-    this.setState({
-      expanded: 'false'
-    })
   }
 
   expandToggle = () => {
