@@ -72,14 +72,6 @@ class Skills extends Component{
                   <FaDatabase size={30} color="DodgerBlue"/>
                   <span class="interestBtn">Backend Development</span>
                 </div>
-                <div class="blinker-container">
-                  <div class="blinker blinker-style">
-                    <div class="element"></div>
-                    <div class="element"></div>
-                    <div class="spark"></div>
-                  </div>
-                </div>
-              <p className="skillsHeader">This work is inspired by codepen</p>
             </div>
           </div>
         </div>

@@ -8,6 +8,7 @@ import About from './Components/About/About';
 import Career from './Components/Career/Career';
 import Education from './Components/Education/Education';
 import Portfolio from './Components/Portfolio/Portfolio';
+import Footer from './Components/Footer/Footer';
 
 class App extends Component {
   render() {
@@ -62,6 +63,7 @@ class App extends Component {
             <Portfolio className ='portfolio' ref={(div) => { this.portfolio = div;}}/>
             <Career className ='career' ref={(div) => { this.career = div;}}/>
             <Education className ='education' ref={(div) => { this.education = div;}}/>
+            <Footer />
         </div>
       </div>
     );
