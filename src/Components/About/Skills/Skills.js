@@ -58,20 +58,28 @@ class Skills extends Component{
             </div>
             <br />
             <div className="skillsDetailStyle">
-            <div className="headerLoaderStyle">
-              <div class="loader-item">
-                <div class="loader loader-3"></div>
+              <div className="headerLoaderStyle">
+                <div class="loader-item">
+                  <div class="loader loader-3"></div>
+                </div>
+                <p className="skillsHeader">My Interest</p>
               </div>
-              <p className="skillsHeader">My Interest</p>
-            </div>
-              <div>
-                <GoPaintcan size={30} color="DodgerBlue"/>
-                <span class="interestBtn">UI/UX Design</span> <br />
-                <MdWeb size={30} color="DodgerBlue"/>
-                <span class="interestBtn">Web & Mobile Development</span> <br />
-                <FaDatabase size={30} color="DodgerBlue"/>
-                <span class="interestBtn">Backend Development</span>
-              </div>
+                <div>
+                  <GoPaintcan size={30} color="DodgerBlue"/>
+                  <span class="interestBtn">UI/UX Design</span> <br />
+                  <MdWeb size={30} color="DodgerBlue"/>
+                  <span class="interestBtn">Web & Mobile Development</span> <br />
+                  <FaDatabase size={30} color="DodgerBlue"/>
+                  <span class="interestBtn">Backend Development</span>
+                </div>
+                <div class="blinker-container">
+                  <div class="blinker blinker-style">
+                    <div class="element"></div>
+                    <div class="element"></div>
+                    <div class="spark"></div>
+                  </div>
+                </div>
+              <p className="skillsHeader">This work is inspired by codepen</p>
             </div>
           </div>
         </div>

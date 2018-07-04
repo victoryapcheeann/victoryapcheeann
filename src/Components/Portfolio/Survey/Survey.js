@@ -1,14 +1,14 @@
 import React from 'react';
-import './Post.css'
+import './Survey.css'
 
 class Post extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
       tasks: [
-        {text: 'Go Go Go, Just do it'},
-        {text: 'Jest & Jamine'},
-        {text: 'MERN Stack'}
+        {text: 'Cool, so far so good?'},
+        {text: 'Hope you like it!'},
+        {text: 'Scroll down to see more!'}
       ]
     }
 }
@@ -36,11 +36,10 @@ class Post extends React.Component {
       </svg>
 
       <div class="todo-list">
-      <div class="toDoHeader">To Do List</div>
+      <div class="toDoHeader">Do you like it?</div>
       {this.state.tasks.map((task) => (
         <label class="todo">
           <input class="todo__state" type="checkbox" />
-
           <svg viewBox="0 0 200 25" class="todo__icon">
             <use href="#todo__line" class="todo__line"></use>
             <use href="#todo__box" class="todo__box"></use>

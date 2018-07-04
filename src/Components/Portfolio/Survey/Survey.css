@@ -3,9 +3,10 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: auto;
+  width: 1000px;
   height: auto;
   position: relative;
+  margin-bottom: 50px;
 }
 
 .svgContainer {
@@ -17,7 +18,7 @@
 }
 
 .toDoHeader {
-  margin-left: 35%;
+  margin-left: 30%;
   margin-bottom: 20px;
 }
 
@@ -34,7 +35,7 @@
 .todo {
   display: block;
   position: relative;
-  padding: 1em 1em 1em 50px;
+  padding: 1em 1em 1em 100px;
   margin: 0 auto;
   cursor: pointer;
   border-bottom: solid 1px #ddd;

@@ -7,7 +7,7 @@ import WebFont from 'webfontloader';
 
 WebFont.load({
   google: {
-    families: ['Lato', 'Qwigley', 'Lora']
+    families: ['Lato', 'Qwigley', 'Lora', 'Montserrat']
   }
 });
 
