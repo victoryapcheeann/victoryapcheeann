@@ -6,10 +6,8 @@
 .grid {
 	position: relative;
 	margin: 0 auto;
-	padding: 1em 0 4em;
-	max-width: 80%;
+	max-width: 90%;
 	list-style: none;
-	text-align: center;
 }
 
 /* Common style */
@@ -19,7 +17,7 @@
 	overflow: hidden;
 	margin: 10px 1%;
 	min-width: 320px;
-	max-width: 480px;
+	max-width: 600px;
 	max-height: 360px;
 	width: 48%;
 	background: #3085a3;
@@ -86,13 +84,24 @@
 	font-size: 68.5%;
 }
 
-@media screen and (max-width: 50em) {
-	.grid figure {
+@media screen and (max-width: 70em) {
+	.grid {
 		display: inline-block;
-		float: none;
-		margin: 10px auto;
 		width: 100%;
+    max-width: 500px;
 	}
+
+  .grid figure{
+		width: 100%;
+    max-width: 480px;
+	}
+
+  .workContainer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: red;
+  }
 }
 
 /*---------------*/

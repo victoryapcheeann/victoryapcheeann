@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Portfolio.css';
+import scrollToComponent from 'react-scroll-to-component';
 import WorkComponent from './Work/Work'
 import SurveyComponent from './Survey/Survey'
 import AnimakitExpander from 'animakit-expander';
@@ -45,9 +46,14 @@ class Portfolio extends Component{
             </p>
           </div>
           <WorkComponent />
-          <WorkComponent />
-          <div onClick={this.expandToggle} className="viewMoreContainer">
-            	<p className="fancy-button bg-gradient1">
+          <div onClick={ this.expandToggle }
+           className="viewMoreContainer">
+            	<p className="fancy-button bg-gradient1"
+              onClick={() => {scrollToComponent(
+                this.moreProjectContainer,
+                { offset: 0, align: 'middle', duration: 300, ease:'inExpo'});
+              }}
+              >
                 <span>
                   {this.state.expanded ? 'View Less' : 'View More'}
                 </span>
@@ -59,6 +65,7 @@ class Portfolio extends Component{
                 style={'fill'}
                 color={'DarkTurquoise'}
                 type={'triangle'}
+                duration={3000}
                 direction={'top'}
                 particlesAmountCoefficient={1}
                 oscillationCoefficient={30}>
@@ -75,7 +82,7 @@ class Portfolio extends Component{
              </ParticleEffect>
             </div>
          </div>
-          <AnimakitExpander expanded={this.state.expanded}>
+          <AnimakitExpander expanded={this.state.expanded} ref={(div) => { this.moreProjectContainer = div;}}>
             <div className = "moreProjectContainer">
               <SurveyComponent />
             </div>

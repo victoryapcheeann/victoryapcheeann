@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Skills.css';
+import Resume from '../../../files/resume.doc'
 
 import GoPaintcan from 'react-icons/lib/go/paintcan';
 import MdWeb from 'react-icons/lib/md/web';
@@ -20,7 +21,7 @@ const myLearns = [
   {learn: 'Jest & Jamine'},
   {learn: 'MERN Stack'},
   {learn: 'MongoDB'},
-  {learn: 'Vue JS'},
+  {learn: 'Dart & Flutter'},
 ];
 
 class Skills extends Component{
@@ -73,6 +74,13 @@ class Skills extends Component{
                   <span class="interestBtn">Backend Development</span>
                 </div>
             </div>
+            <a href={Resume} download>
+              <div className="downloadButtonStyle">
+                <p className="fancy-button bg-gradient1">
+                  <span>Download Resume</span>
+                </p>
+              </div>
+            </a>
           </div>
         </div>
     );

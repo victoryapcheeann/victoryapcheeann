@@ -12,7 +12,7 @@ class work extends Component{
           						<figcaption>
           							<h2>Passionate <span>Julia</span></h2>
           							<div>
-          								<p>Julia dances in the deep dark</p>
+          								<p>Julia dances in the deep dark</p> <br />
           								<p>She loves the smell of the ocean</p>
           								<p>And dives into the morning light</p>
           							</div>
@@ -24,7 +24,7 @@ class work extends Component{
           						<figcaption>
           							<h2>Passionate <span>Julia</span></h2>
           							<div>
-          								<p>Julia dances in the deep dark</p>
+          								<p>Julia dances in the deep dark</p> <br/>
           								<p>She loves the smell of the ocean</p>
           								<p>And dives into the morning light</p>
           							</div>
@@ -32,6 +32,32 @@ class work extends Component{
           						</figcaption>
           					</figure>
           				</div>
+                  <div class="grid">
+                    <figure class="effect-julia">
+                      <img src={pizzaPicture} alt="img21"/>
+                      <figcaption>
+                        <h2>Passionate <span>Julia</span></h2>
+                        <div>
+                          <p>Julia dances in the deep dark</p> <br />
+                          <p>She loves the smell of the ocean</p>
+                          <p>And dives into the morning light</p>
+                        </div>
+                        <a href="#">View more</a>
+                      </figcaption>
+                    </figure>
+                    <figure class="effect-julia">
+                      <img src={pizzaPicture} alt="img22"/>
+                      <figcaption>
+                        <h2>Passionate <span>Julia</span></h2>
+                        <div>
+                          <p>Julia dances in the deep dark</p> <br />
+                          <p>She loves the smell of the ocean</p>
+                          <p>And dives into the morning light</p>
+                        </div>
+                        <a href="#">View more</a>
+                      </figcaption>
+                    </figure>
+                  </div>
         </div>
     );
   }
