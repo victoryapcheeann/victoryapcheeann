@@ -31,47 +31,47 @@ class Skills extends Component{
           <div className="skillsDetailContainer">
             <div className="skillsDetailStyle">
             <div className="headerLoaderStyle">
-              <div class="loader-item">
-                <div class="loader loader-1"></div>
+              <div className="loader-item">
+                <div className="loader loader-1"></div>
               </div>
                 <p className="skillsHeader">My Skills</p>
             </div>
               <div>
                 {mySkills.map((mySkill) => (
-                  <span class="skillBtn">{mySkill.skill}</span>
+                  <span className="skillBtn">{mySkill.skill}</span>
                 ))}
               </div>
             </div>
             <br />
             <div className="skillsDetailStyle">
             <div className="headerLoaderStyle">
-              <div class="loader-item">
+              <div className="loader-item">
 
-                  <div class="loader loader-2"></div>
+                  <div className="loader loader-2"></div>
                 </div>
                 <p className="skillsHeader">To Learn List</p>
               </div>
               <div>
                 {myLearns.map((myLearn) => (
-                  <span class="learnBtn">{myLearn.learn}</span>
+                  <span className="learnBtn">{myLearn.learn}</span>
                 ))}
               </div>
             </div>
             <br />
             <div className="skillsDetailStyle">
               <div className="headerLoaderStyle">
-                <div class="loader-item">
-                  <div class="loader loader-3"></div>
+                <div className="loader-item">
+                  <div className="loader loader-3"></div>
                 </div>
                 <p className="skillsHeader">My Interest</p>
               </div>
                 <div>
                   <GoPaintcan size={30} color="DodgerBlue"/>
-                  <span class="interestBtn">UI/UX Design</span> <br />
+                  <span className="interestBtn">UI/UX Design</span> <br />
                   <MdWeb size={30} color="DodgerBlue"/>
-                  <span class="interestBtn">Web & Mobile Development</span> <br />
+                  <span className="interestBtn">Web & Mobile Development</span> <br />
                   <FaDatabase size={30} color="DodgerBlue"/>
-                  <span class="interestBtn">Backend Development</span>
+                  <span className="interestBtn">Backend Development</span>
                 </div>
             </div>
             <a href={Resume} download>

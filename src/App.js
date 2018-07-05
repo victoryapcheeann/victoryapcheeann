@@ -5,9 +5,10 @@ import styled, {keyframes} from "styled-components";
 import './App.css'
 
 import About from './Components/About/About';
+import Portfolio from './Components/Portfolio/Portfolio';
 import Career from './Components/Career/Career';
 import Education from './Components/Education/Education';
-import Portfolio from './Components/Portfolio/Portfolio';
+import Achievement from './Components/Achievement/Achievement';
 import Footer from './Components/Footer/Footer';
 
 class App extends Component {
@@ -63,6 +64,7 @@ class App extends Component {
             <Portfolio className ='portfolio' ref={(div) => { this.portfolio = div;}}/>
             <Career className ='career' ref={(div) => { this.career = div;}}/>
             <Education className ='education' ref={(div) => { this.education = div;}}/>
+            <Achievement />
             <Footer />
         </div>
       </div>

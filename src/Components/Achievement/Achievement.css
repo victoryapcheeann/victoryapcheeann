@@ -20,18 +20,18 @@
 }
 
 .main,
-.careerContainer > header {
+.achievementContainer > header {
 	width: 90%;
 	max-width: 69em;
 	margin: 0 auto;
 	padding: 0 1.875em 3.125em 1.875em;
 }
 
-.careerContainer > header {
+.achievementContainer > header {
 	padding: 2.875em 1.875em 1.875em;
 }
 
-.careerContainer > header h1 {
+.achievementContainer > header h1 {
 	font-size: 2.125em;
 	line-height: 1.3;
 	margin: 0 0 0.6em 0;
@@ -39,7 +39,7 @@
 	font-weight: 400;
 }
 
-.careerContainer > header > span {
+.achievementContainer > header > span {
 	display: block;
 	position: relative;
 	z-index: 9999;
@@ -49,7 +49,7 @@
 	padding: 0 0 0.6em 0.1em;
 }
 
-.careerContainer > header > span span:after {
+.achievementContainer > header > span span:after {
 	width: 30px;
 	height: 30px;
 	left: -12px;
@@ -59,7 +59,7 @@
 	position: relative;
 }
 
-.careerContainer > header > span span:hover:before {
+.achievementContainer > header > span span:hover:before {
 	content: attr(data-content);
 	text-transform: none;
 	text-indent: 0;
@@ -76,12 +76,12 @@
 	background: #47a3da;
 }
 
-.careerContainer > header nav {
+.achievementContainer > header nav {
 	float: right;
 	text-align: center;
 }
 
-.careerContainer > header nav a {
+.achievementContainer > header nav a {
 	display: inline-block;
 	position: relative;
 	text-align: left;
@@ -93,11 +93,11 @@
 	border: 4px solid #47a3da;
 }
 
-.careerContainer > header nav a > span {
+.achievementContainer > header nav a > span {
 	display: none;
 }
 
-.careerContainer > header nav a:hover:before {
+.achievementContainer > header nav a:hover:before {
 	content: attr(data-info);
 	color: #47a3da;
 	position: absolute;
@@ -108,7 +108,7 @@
 	pointer-events: none;
 }
 
-.careerContainer > header nav a:hover {
+.achievementContainer > header nav a:hover {
 	background: #47a3da;
 }
 
@@ -124,7 +124,7 @@
 	-webkit-font-smoothing: antialiased;
 }
 
-.careerContainer > header nav .bp-icon:after {
+.achievementContainer > header nav .bp-icon:after {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -134,7 +134,7 @@
 	text-indent: 0;
 }
 
-.careerContainer > header nav a:hover:after {
+.achievementContainer > header nav a:hover:after {
 	color: #fff;
 }
 
@@ -156,26 +156,26 @@
 
 @media screen and (max-width: 55em) {
 
-	.careerContainer > header h1,
-	.careerContainer > header nav {
+	.achievementContainer > header h1,
+	.achievementContainer > header nav {
 		float: none;
 	}
 
-	.careerContainer > header > span,
-	.careerContainer > header h1 {
+	.achievementContainer > header > span,
+	.achievementContainer > header h1 {
 		text-align: center;
 	}
 
-	.careerContainer > header nav {
+	.achievementContainer > header nav {
 		margin: 0 auto;
 	}
 
-	.careerContainer > header > span {
+	.achievementContainer > header > span {
 		text-indent: 30px;
 	}
 }
 
-.career_tmtimeline {
+.achievement_tmtimeline {
 	margin: 30px 0 0 0;
 	padding: 0;
 	list-style: none;
@@ -183,52 +183,52 @@
 }
 
 /* The line */
-.career_tmtimeline:before {
+.achievement_tmtimeline:before {
 	content: '';
 	position: absolute;
 	top: 0;
 	bottom: 0;
 	width: 10px;
-	background: #afdcf8;
+	background: #E2725B;
 	left: 20%;
 	margin-left: -10px;
 }
 
-.career_tmtimeline > li {
+.achievement_tmtimeline > li {
 	position: relative;
   margin-bottom: 70px;
 }
 
 /* The date/time */
-.career_tmtimeline > li .career_tmtime {
+.achievement_tmtimeline > li .achievement_tmtime {
 	display: block;
 	width: 15%;
 	position: absolute;
 }
 
-.career_tmtimeline > li .career_tmtime span {
+.achievement_tmtimeline > li .achievement_tmtime span {
 	display: block;
 	text-align: right;
 }
 
-.career_tmtimeline > li .career_tmtime span:first-child {
+.achievement_tmtimeline > li .achievement_tmtime span:first-child {
 	font-size: 1.9em;
 	color: #bdd0db;
 }
 
-.career_tmtimeline > li .career_tmtime span:last-child {
+.achievement_tmtimeline > li .achievement_tmtime span:last-child {
 	font-size: 1.9em;
-	color: #3594cb;
+	color: #E52B50;
 }
 
-.career_tmtimeline > li:nth-child(odd) .career_tmtime span:last-child {
-	color: #6cbfee;
+.achievement_tmtimeline > li:nth-child(odd) .achievement_tmtime span:last-child {
+	color: #E2725B;
 }
 
 /* Right content */
-.career_tmtimeline > li .career_tmlabel {
+.achievement_tmtimeline > li .achievement_tmlabel {
 	margin: 0 0 15px 25%;
-	background: #3594cb;
+	background: #E52B50;
 	color: #fff;
 	padding: 2em;
 	font-size: 1.2em;
@@ -236,26 +236,26 @@
 	line-height: 1.4;
 	position: relative;
 	border-radius: 5px;
-  box-shadow: 0 4px  4px  rgba(11, 122, 248, .1),
-            0 1px  6px  rgba(11, 122, 248, .05),
-            0 8px  8px  rgba(11, 122, 248, .1),
-            0 16px 16px rgba(11, 122, 248, .1),
-            8px 32px 32px rgba(11, 122, 248, .15),
-            8px 64px 64px rgba(11, 122, 248, .15);
+  box-shadow: 0 4px  4px  rgba(227, 11, 92, .1),
+            0 1px  6px  rgba(227, 11, 92, .05),
+            0 8px  8px  rgba(227, 11, 92, .1),
+            0 16px 16px rgba(227, 11, 92, .1),
+            8px 32px 32px rgba(227, 11, 92, .15),
+            8px 64px 64px rgba(227, 11, 92, .15);
 }
 
-.career_tmtimeline > li:nth-child(odd) .career_tmlabel {
-	background: #6cbfee;
+.achievement_tmtimeline > li:nth-child(odd) .achievement_tmlabel {
+	background: #E2725B;
 }
 
-.career_tmtimeline > li .career_tmlabel h2 {
+.achievement_tmtimeline > li .achievement_tmlabel h2 {
 	margin-top: 0px;
 	padding: 0 0 10px 0;
 	border-bottom: 1px solid rgba(255,255,255,0.4);
 }
 
 /* The triangle */
-.career_tmtimeline > li .career_tmlabel:after {
+.achievement_tmtimeline > li .achievement_tmlabel:after {
 	right: 100%;
 	border: solid transparent;
 	content: " ";
@@ -263,17 +263,17 @@
 	width: 0;
 	position: absolute;
 	pointer-events: none;
-	border-right-color: #3594cb;
+	border-right-color: #E52B50;
 	border-width: 10px;
 	top: 10px;
 }
 
-.career_tmtimeline > li:nth-child(odd) .career_tmlabel:after {
-	border-right-color: #6cbfee;
+.achievement_tmtimeline > li:nth-child(odd) .achievement_tmlabel:after {
+	border-right-color: #E2725B;
 }
 
 /* The icons */
-.career_tmtimeline > li .career_tmicon {
+.achievement_tmtimeline > li .achievement_tmicon {
 	width: 40px;
 	height: 40px;
 	font-family: 'ecoico';
@@ -287,75 +287,75 @@
 	-webkit-font-smoothing: antialiased;
 	position: absolute;
 	color: #fff;
-	background: #46a4da;
+	background: #E52B50;
 	border-radius: 50%;
-	box-shadow: 0 0 0 8px #afdcf8;
+	box-shadow: 0 0 0 8px #E2725B;
 	text-align: center;
 	left: 20%;
 	top: 0;
 	margin: 0 0 0 -25px;
 }
 
-.career_tmicon-phone:before {
+.achievement_tmicon-phone:before {
 	content: "\e000";
 }
 
-.career_tmicon-screen:before {
+.achievement_tmicon-screen:before {
 	content: "\e001";
 }
 
-.career_tmicon-mail:before {
+.achievement_tmicon-mail:before {
 	content: "\e002";
 }
 
-.career_tmicon-earth:before {
+.achievement_tmicon-earth:before {
 	content: "\e003";
 }
 
 /* Example Media Queries */
 @media screen and (max-width: 65.375em) {
 
-	.career_tmtimeline > li .career_tmtime span:last-child {
+	.achievement_tmtimeline > li .achievement_tmtime span:last-child {
 		font-size: 1.9em;
 	}
 }
 
 @media screen and (max-width: 47.2em) {
-	.career_tmtimeline:before {
+	.achievement_tmtimeline:before {
 		display: none;
 	}
 
-	.career_tmtimeline > li .career_tmtime {
+	.achievement_tmtimeline > li .achievement_tmtime {
 		width: 100%;
 		position: relative;
 		padding: 0 0 20px 0;
 	}
 
-	.career_tmtimeline > li .career_tmtime span {
+	.achievement_tmtimeline > li .achievement_tmtime span {
 		text-align: left;
 	}
 
-	.career_tmtimeline > li .career_tmlabel {
+	.achievement_tmtimeline > li .achievement_tmlabel {
 		margin: 0 0 30px 0;
 		padding: 1em;
 		font-weight: 400;
 		font-size: 95%;
 	}
 
-	.career_tmtimeline > li .career_tmlabel:after {
+	.achievement_tmtimeline > li .achievement_tmlabel:after {
 		right: auto;
 		left: 20px;
 		border-right-color: transparent;
-		border-bottom-color: #3594cb;
+		border-bottom-color: #E52B50;
 		top: -20px;
 	}
 
-	.career_tmtimeline > li:nth-child(odd) .career_tmlabel:after {
+	.achievement_tmtimeline > li:nth-child(odd) .achievement_tmlabel:after {
 		border-right-color: transparent;
-		border-bottom-color: #6cbfee;
+		border-bottom-color: #E2725B;
 	}
 
-	.career_tmtimeline > li .career_tmicon {
+	.achievement_tmtimeline > li .achievement_tmicon {
 		position: relative;
 		float: right;
 		left: auto;

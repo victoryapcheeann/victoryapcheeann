@@ -24,7 +24,7 @@
   z-index: -1;
 }
 
-.portfolioHeaderStyle {
+.headerContainer {
   padding-top: 12vh;
   display: flex;
   justify-content: flex-start;
@@ -33,15 +33,7 @@
   position: relative;
 }
 
-.viewMoreContainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin: 20px;
-}
-
-.portfolioHeader {
+.headerStyle {
   font-size: 40px;
   margin: 10px;
 }
@@ -51,6 +43,14 @@
   margin: 5px;
   font-family: 'Qwigley';
   text-align: center;
+}
+
+.viewMoreContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
 }
 
 .first-path, .second-path {

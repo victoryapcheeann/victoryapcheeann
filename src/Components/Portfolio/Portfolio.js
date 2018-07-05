@@ -38,8 +38,8 @@ class Portfolio extends Component{
     return (
       <div className="portfolioBackground">
         <div className="portfolioContainer">
-          <div className="portfolioHeaderStyle">
-            <p className="portfolioHeader">My Works</p>
+          <div className="headerContainer">
+            <p className="headerStyle">Portfolio</p>
             <p className="quotesStyle">
               <span>Show, Dont tell, Seeing is believing</span> <br />
               <span>A picture paints a thousand words</span>
@@ -65,10 +65,11 @@ class Portfolio extends Component{
                 style={'fill'}
                 color={'DarkTurquoise'}
                 type={'triangle'}
-                duration={3000}
+                duration={2000}
                 direction={'top'}
-                particlesAmountCoefficient={1}
-                oscillationCoefficient={30}>
+                canvasPadding={300}
+                particlesAmountCoefficient={3}
+                oscillationCoefficient={15}>
                  <div>
                  <div class="scrolldown-container">
                    <div class="scrolldown-btn">

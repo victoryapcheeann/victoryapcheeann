@@ -12,7 +12,9 @@ class Footer extends Component{
             <div className="spark"></div>
           </div>
         </div>
-        <p>This work is inspired by codepen</p>
+        <div className="footerDescription">
+          <p>Caulie dandelion maize lentil collard greens radish arugula sweet pepper water spinach kombu courgette lettuce. Celery coriander bitterleaf epazote radicchio shallot winter purslane collard greens spring onion squash lentil. Artichoke salad bamboo shoot black-eyed pea brussels sprout garlic kohlrabi.</p>
+        </div>
       </div>
     );
   }

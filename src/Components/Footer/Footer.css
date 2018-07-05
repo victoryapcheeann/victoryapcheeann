@@ -6,6 +6,10 @@
   flex-direction: column;
 }
 
+.footerDescription {
+  max-width: 500px;
+}
+
 .blinker {
   margin: 50px;
   flex: none;
