@@ -65,11 +65,10 @@ class Portfolio extends Component{
                 style={'fill'}
                 color={'DarkTurquoise'}
                 type={'triangle'}
-                duration={2000}
+                duration={1000}
                 direction={'top'}
-                canvasPadding={300}
-                particlesAmountCoefficient={3}
-                oscillationCoefficient={15}>
+                particlesAmountCoefficient={1}
+                oscillationCoefficient={5}>
                  <div>
                  <div class="scrolldown-container">
                    <div class="scrolldown-btn">

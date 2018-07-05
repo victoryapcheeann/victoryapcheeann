@@ -24,32 +24,21 @@
 
 @media(min-width: 1450px) {
   .container > div {
-    height: 93vh;
+    height: 110vh;
     width: auto;
   }
 }
 
 @media(max-width: 1450px) and (min-width: 1100px)  {
   .container > div {
-    height: 93vh;
+    height: 110vh;
     width: auto;
   }
 }
 
-@media(max-width: 1100px) and (min-width: 800px) {
+@media(max-width: 1100px) {
   .container > div {
-    height: 180vh;
-    width: 80%;
-  }
-
-  .ocean, .wave {
-    display: none;
-  }
-}
-
-@media(max-width: 800px) {
-  .container > div {
-    height: 190vh;
+    height: 1800px;
   }
 
   .ocean, .wave {

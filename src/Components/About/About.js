@@ -11,7 +11,7 @@ import SkillsComponent from './Skills/Skills'
 const IntroPage = () => (
     <div>
       <ParticleAnimation
-        numParticles={400}
+        numParticles={100}
         interactive={true}
         color={{r: 30, g: 217, b: 255, a: 255}}>
       </ParticleAnimation>
