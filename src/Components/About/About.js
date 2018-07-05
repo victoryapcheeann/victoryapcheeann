@@ -15,10 +15,6 @@ const IntroPage = () => (
         interactive={true}
         color={{r: 30, g: 217, b: 255, a: 255}}>
       </ParticleAnimation>
-      <div className="ocean">
-        <div className="wave"></div>
-        <div className="wave"></div>
-      </div>
       <TitleComponent />
       <ContactComponent />
       <SkillsComponent />
