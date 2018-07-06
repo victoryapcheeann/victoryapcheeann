@@ -36,7 +36,6 @@ class Portfolio extends Component{
     const { hidden, animating } = this.state;
 
     return (
-      <div className="portfolioBackground">
         <div className="portfolioContainer">
           <div className="headerContainer">
             <p className="headerStyle">Portfolio</p>
@@ -48,12 +47,7 @@ class Portfolio extends Component{
           <WorkComponent />
           <div onClick={ this.expandToggle }
            className="viewMoreContainer">
-            	<p className="fancy-button bg-gradient1"
-              onClick={() => {scrollToComponent(
-                this.moreProjectContainer,
-                { offset: 0, align: 'middle', duration: 300, ease:'inExpo'});
-              }}
-              >
+            	<p className="fancy-button bg-gradient1">
                 <span>
                   {this.state.expanded ? 'View Less' : 'View More'}
                 </span>
@@ -87,7 +81,6 @@ class Portfolio extends Component{
               <SurveyComponent />
             </div>
           </AnimakitExpander>
-        </div>
         </div>
     );
   }

@@ -20,38 +20,22 @@ class App extends Component {
         <div className="nav__content">
           <ul className="nav__items">
             <li className="nav__item">
-              <span className="nav__item-text" key = 'AboutKey'
-              onClick={() => {scrollToComponent(
-              this.about,
-              { offset: 0, align: 'top', duration: 300, ease:'inExpo'});
-            }}>
+              <span className="nav__item-text" key = 'AboutKey' onClick={() => {scrollToComponent(this.about,{ offset: 0, align: 'top', duration: 300, ease:'inExpo'});}}>
                 About Me
               </span>
             </li>
             <li className="nav__item">
-              <span className="nav__item-text" key = 'ProjectKey'
-              onClick={() => {scrollToComponent(
-              this.portfolio,
-              { offset: 0, align: 'top', duration: 300, ease:'inExpo'});
-            }}>
+              <span className="nav__item-text" key = 'ProjectKey' onClick={() => {scrollToComponent(this.portfolio, { offset: 0, align: 'top', duration: 300, ease:'inExpo'});}}>
                 Portfolio
               </span>
             </li>
             <li className="nav__item">
-              <span className="nav__item-text" key = 'CareerKey'
-              onClick={() => {scrollToComponent(
-              this.career,
-              { offset: 0, align: 'top', duration: 300, ease:'inExpo'});
-            }}>
+              <span className="nav__item-text" key = 'CareerKey' onClick={() => {scrollToComponent(this.career,{ offset: 0, align: 'top', duration: 300, ease:'inExpo'});}}>
                 Career
               </span>
             </li>
             <li className="nav__item">
-              <span className="nav__item-text" key = 'EducationKey'
-              onClick={() => {scrollToComponent(
-              this.education,
-              { offset: 0, align: 'top', duration: 300, ease:'inExpo'});
-            }}>
+              <span className="nav__item-text" key = 'EducationKey'onClick={() => {scrollToComponent(this.education, { offset: 0, align: 'top', duration: 300, ease:'inExpo'});}}>
                 Education
               </span>
             </li>

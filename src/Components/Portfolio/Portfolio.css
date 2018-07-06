@@ -6,24 +6,6 @@
   align-items: center;
 }
 
-.portfolioBackground {
-  position: relative;
-}
-
-.portfolioBackground::after {
-  background-size: 100% 100%;
-  content: "";
-  background: url('../../image/background.png') no-repeat;
-  background-size: cover;
-  opacity: 0.3;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-}
-
 .headerContainer {
   padding-top: 12vh;
   display: flex;

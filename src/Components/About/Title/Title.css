@@ -1,7 +1,6 @@
 .titleContainer {
   display: flex;
-  position: absolute;
-  z-index: 1;
+  position: relative;
   align-content: left;
   justify-content: center;
   flex-direction: column;
@@ -16,7 +15,6 @@
 
 .stripe {
   height: 5px;
-  width: auto;
   margin-top: 10px;
 }
 
@@ -26,23 +24,17 @@
 }
 
 .myName {
-  margin: 10px;
   position: relative;
 }
 
 .jobTitle {
   color: grey;
-  font-family: 'Lora';
 }
 
 .profilePic {
   border-radius: 50%;
   width: 100px;
   height: 100px;
-}
-
-.mainContainer {
-  position: absolute;
 }
 
 .meContainer {
@@ -70,96 +62,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-
-
-@media(min-width: 1450px) {
-  .titleHeader {
-    font-size: 40px;
-    color: black;
-  }
-
-  .titleDescription {
-    font-size: 25px;
-  }
-
-  .jobTitle {
-    font-size: 20px;
-    margin-left:20px;
-    margin-top: 30px;
-  }
-
-  .rw-words{
-      margin-left: 30px;
-  }
-
-  .titleContainer{
-      width: 35vw;
-      height: 30vh;
-      margin-top: 5vh;
-      margin-left: 10vw;
-  }
-}
-
-@media(max-width: 1450px) and (min-width: 1100px)  {
-  .titleHeader {
-    font-size: 35px;
-    color: black;
-  }
-
-  .titleDescription {
-    font-size: 20px;
-  }
-
-  .jobTitle {
-    font-size: 20px;
-    margin-left:15px;
-    margin-top: 20px;
-  }
-
-  .rw-words{
-      margin-left: 25px;
-  }
-
-  .titleContainer{
-      width: 35vw;
-      height: 25vh;
-      margin-top: 7vh;
-      margin-left: 10vw;
-  }
-}
-
-@media(max-width: 1100px) {
-  .number {
-    font-size: 200px;
-    color: #fff;
-  }
-
-  .titleHeader {
-    font-size: 30px;
-    color: black;
-  }
-
-  .titleDescription {
-    font-size: 20px;
-  }
-
-  .jobTitle {
-    font-size: 15px;
-    margin-left:10px;
-    margin-top: 15px;
-  }
-
-  .rw-words{
-    margin-left: 15px;
-  }
-
-  .titleContainer{
-      height: 25vh;
-      margin-top: 15vh;
-      width: 90%;
-  }
 }
 
 .rw-words{

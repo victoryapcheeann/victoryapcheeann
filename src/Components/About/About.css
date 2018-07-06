@@ -1,101 +1,20 @@
-.container > div {
-  height: 93vh;
-  display: flex;
-  justify-content: left;
-  background-color:transparent;
-  width: 100%;
+.container {
+  display: grid;
+  grid-area: '. title title title .',
+             '. contact contact contact .',
+             '. skills skills skills .';
+  grid-gap: 50px;
+  margin: 20px;
 }
 
-.containerStyle {
-  display: flex;
-  position: absolute;
-  z-index: 1;
-  align-content: left;
-  justify-content: left;
-  width: auto;
-  background-color: rgba(255, 255, 255,  0.6);
-  box-shadow: 0 4px  4px  rgba(157, 204, 250, .1),
-            0 1px  6px  rgba(157, 204, 250, .05),
-            0 8px  8px  rgba(157, 204, 250, .1),
-            0 16px 16px rgba(157, 204, 250, .1),
-            8px 32px 32px rgba(157, 204, 250, .15),
-            8px 64px 64px rgba(157, 204, 250,.15);
+.titleGrid {
+  grid-area: skills;
 }
 
-@media(min-width: 1450px) {
-  .container > div {
-    height: 110vh;
-    width: auto;
-  }
+.contactGrid {
+  grid-area: contact;
 }
 
-@media(max-width: 1450px) and (min-width: 1100px)  {
-  .container > div {
-    height: 110vh;
-    width: auto;
-  }
-}
-
-@media(max-width: 1100px) {
-  .container > div {
-    height: 1800px;
-  }
-
-  .ocean, .wave {
-    display: none;
-  }
-}
-
-@keyframes BackgroundGradient {
-    0% {background-position: 0% 50%;}
-    50% {background-position: 100% 50%;}
-    100% {background-position: 0% 50%;}
-}
-
-.aboutGradient {
-  background: linear-gradient(to right, #b2fefa, #0ed2f7);
-  background-size: 1500% 1500%;
-  animation: BackgroundGradient 10s ease infinite;
-}
-
-.ocean {
-  height: 2%;
-  width:100%;
-  position:absolute;
-  bottom:0;
-  left:0;
-}
-
-.wave {
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x;
-  position: absolute;
-  top: -198px;
-  width: 6400px;
-  height: 198px;
-  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
-  transform: translate3d(0, 0, 0);
-}
-
-.wave:nth-of-type(2) {
-  top: -175px;
-  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
-  opacity: 1;
-}
-
-@keyframes wave {
-  0% {
-    margin-left: 0;
-  }
-  100% {
-    margin-left: -1600px;
-  }
-}
-
-@keyframes swell {
-  0%, 100% {
-    transform: translate3d(0,-25px,0);
-  }
-  50% {
-    transform: translate3d(0,5px,0);
-  }
+.skillsGrid {
+  grid-area: title;
 }
