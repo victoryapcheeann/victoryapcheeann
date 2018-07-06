@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
+import SurveyComponent from './Survey/Survey'
+
 import './Footer.css';
+import './Jedi.css';
 
 class Footer extends Component{
   render() {
@@ -12,6 +15,7 @@ class Footer extends Component{
             <div className="spark"></div>
           </div>
         </div>
+        <SurveyComponent />
         <div className="footerDescription">
           <p>Caulie dandelion maize lentil collard greens radish arugula sweet pepper water spinach kombu courgette lettuce. Celery coriander bitterleaf epazote radicchio shallot winter purslane collard greens spring onion squash lentil. Artichoke salad bamboo shoot black-eyed pea brussels sprout garlic kohlrabi.</p>
         </div>

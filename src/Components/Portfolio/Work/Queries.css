@@ -1,0 +1,21 @@
+@media (max-width: 1300px){
+  .workStyle {
+    grid-template-columns: auto;
+  }
+}
+
+@media (max-width: 700px){
+  .grid figure {
+  	position: relative;
+  	float: left;
+  	overflow: hidden;
+  	margin: 10px 1%;
+  	min-width: 320px;
+  	max-width: 450px;
+  	max-height: 360px;
+  	background: #3085a3;
+  	text-align: center;
+  	cursor: pointer;
+    margin: 10px;
+  }
+}

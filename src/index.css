@@ -1,6 +1,67 @@
 body {
   margin: 0;
   padding: 0;
-  font-family:'Lato', sans-serif;
-  overflow-x:hidden;
+  font-family:'Lato';
+}
+
+.h1Style {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.h2Style {
+  font-size: 26px;
+}
+
+.textStyle {
+  font-size: 14px;
+}
+
+.quotesStyle {
+  font-size: 40px;
+  margin: 5px;
+  font-family: 'Qwigley';
+  text-align: center;
+}
+
+.rowStyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.columnStyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.rowLeftStyle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.columnLeftStyle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.rowRightStyle {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+.columnEightStyle {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
 }

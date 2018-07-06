@@ -12,7 +12,7 @@ class Achievement extends Component{
     return (
       <div className="achievementContainer">
         <div className="headerContainer">
-          <p className="headerStyle">Achievement</p>
+          <p className="h1Style">Achievement</p>
           <p className="quotesStyle">
             <span>Pen is mightier than the sword</span>
           </p>

@@ -12,7 +12,7 @@ class Career extends Component{
     return (
       <div className="careerContainer">
         <div className="headerContainer">
-          <p className="headerStyle">Career</p>
+          <p className="h1Style">Career</p>
           <p className="quotesStyle">
             <span>Pen is mightier than the sword</span>
           </p>

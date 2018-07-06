@@ -25,7 +25,7 @@
 .todo-list {
   background: #FFF;
   font-size: 20px;
-  max-width: 20em;
+  max-width: 15em;
   width: 100%;
   margin: auto;
   padding: 1em 1em;
@@ -35,7 +35,7 @@
 .todo {
   display: block;
   position: relative;
-  padding: 1em 1em 1em 100px;
+  padding: 1em 1em 1em 50px;
   margin: 0 auto;
   cursor: pointer;
   border-bottom: solid 1px #ddd;

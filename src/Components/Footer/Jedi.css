@@ -1,16 +1,3 @@
-.footerContainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  flex-direction: column;
-}
-
-.footerDescription {
-  max-width: 500px;
-  text-align: center;
-}
-
 .blinker {
   margin: 50px;
   flex: none;

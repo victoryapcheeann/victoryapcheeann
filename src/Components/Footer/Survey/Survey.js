@@ -6,9 +6,9 @@ class Post extends React.Component {
     super(props)
     this.state = {
       tasks: [
-        {text: 'Cool, so far so good?'},
-        {text: 'Hope you like it!'},
-        {text: 'Scroll down to see more!'}
+        {text: 'Cool, this is the end!'},
+        {text: 'So far so good?'},
+        {text: 'Hope you like it!'}
       ]
     }
 }

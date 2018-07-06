@@ -14,22 +14,17 @@ class Contact extends Component{
   render() {
     return (
         <div className="contactContainer">
-            <div className="personalInfoContainer">
-              <div className="contactHeader">
+            <div className="columnStyle">
+              <div className="h2Style">
                 Basic Information
               </div>
               <br />
-              <div className="contactText">
-                <p><IoMail size={30} color="CornflowerBlue"/> Email</p>
-                <span>victoryapcheeann@gmail.com</span>
+              <div className="contactText textStyle columnLeftStyle">
+                <span><IoMail size={30} color="CornflowerBlue"/> Email: victoryapcheeann@gmail.com</span>
                 <br />
+                <span><IoIphone size={30} color="CornflowerBlue"/> Phone: 90025405</span>
                 <br />
-                <p><IoIphone size={30} color="CornflowerBlue"/> Phone</p>
-                <span>90025405</span>
-                <br />
-                <br />
-                <p><FaHome size={30} color="CornflowerBlue"/> Nationality</p>
-                <span>Singaporean</span>
+                <span><FaHome size={30} color="CornflowerBlue"/> Nationality: Singaporean</span>
               </div>
               <br />
               <br />

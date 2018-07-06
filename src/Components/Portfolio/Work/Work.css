@@ -1,13 +1,8 @@
-.workContainer {
-    display: flex;
-    flex-direction: column;
-}
-
-.grid {
-	position: relative;
-	margin: 0 auto;
-	max-width: 90%;
-	list-style: none;
+.workStyle {
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 50% 50%;
+  grid-gap: 20px;
 }
 
 /* Common style */
@@ -17,12 +12,12 @@
 	overflow: hidden;
 	margin: 10px 1%;
 	min-width: 320px;
-	max-width: 480px;
+	max-width: 600px;
 	max-height: 360px;
-	width: 48%;
 	background: #3085a3;
 	text-align: center;
 	cursor: pointer;
+  margin: 10px;
 }
 
 .grid figure img {
@@ -82,19 +77,6 @@
 .grid figure p {
 	letter-spacing: 1px;
 	font-size: 68.5%;
-}
-
-@media screen and (max-width: 70em) {
-	.grid {
-		display: inline-block;
-		width: 100%;
-	}
-
-  .workContainer {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-  }
 }
 
 /*---------------*/
