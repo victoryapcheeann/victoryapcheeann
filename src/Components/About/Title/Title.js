@@ -27,6 +27,7 @@ class Title extends Component{
             <ContactComponent />
           </div>
         </div>
+
     );
   }
 }

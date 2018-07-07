@@ -14,7 +14,7 @@ import Footer from './Components/Footer/Footer';
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className = "appContainer">
         <nav className="nav rowLeftStyle">
           <input type="checkbox" className="nav__cb" id="menu-cb"/>
           <label className="nav__btn" for="menu-cb"></label>

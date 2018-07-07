@@ -105,8 +105,8 @@ class Skills extends Component{
             </div>
             <div className ="columnStyle">
               <a href="/resume.doc" download>
-                <div className="rowStyle">
-                  <p className="fancy-button bg-gradient1" onClick={ this.expandToggle }>
+                <div className="rowStyle" onClick={ this.expandToggle }>
+                  <p className="fancy-button bg-gradient1">
                     <span>Download Resume </span>
                   </p>
                   <ParticleEffect

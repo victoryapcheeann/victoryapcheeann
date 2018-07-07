@@ -5,13 +5,17 @@ import './Queries.css';
 
 import TitleComponent from './Title/Title'
 import SkillsComponent from './Skills/Skills'
+import Social from './Social/Social'
 
 class About extends Component{
    render() {
      return (
          <div className="container">
-            <TitleComponent />
-            <SkillsComponent />
+            <div className="columnStyle">
+              <TitleComponent />
+              <Social />
+            </div>
+              <SkillsComponent />
          </div>
      )
    }
