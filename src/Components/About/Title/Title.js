@@ -14,7 +14,7 @@ class Title extends Component{
                 <img src="/profilePicture.png" className="profilePic" alt="Avatar"/>
               </div>
               <div className = "columnLeftStyle nameContainer">
-                <p className="h3Style nameStyle">Hello !<br/> I am Victor Yap</p>
+                <p className="h2Style nameStyle">Hello !<br/> I am Victor Yap</p>
                 <p className="textStyle jobTitle columnStyle">
                   <span>Software Engineer</span> <br />
                   <span>UI/UX Designer</span>

@@ -3,6 +3,7 @@ body {
   padding: 0;
   font-family:'Lato',arial, sans-serif;
   overflow-x: hidden;
+  font-weight: 100;
 }
 
 .h1Style {
@@ -12,10 +13,6 @@ body {
 }
 
 .h2Style {
-  font-size: 22px;
-}
-
-.h3Style {
   font-size: 18px;
 }
 
