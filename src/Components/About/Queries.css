@@ -3,3 +3,9 @@
     flex-direction: column;
   }
 }
+
+@media (max-width: 700px){
+  .container {
+    max-width: 350px;
+  }
+}
