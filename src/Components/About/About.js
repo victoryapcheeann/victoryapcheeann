@@ -11,8 +11,8 @@ class About extends Component{
      return (
          <div className="container">
            <TitleComponent className="titleGrid"/>
-           <ContactComponent className="contactGrid"/>
            <SkillsComponent className="skillsGrid"/>
+           <ContactComponent className="contactGrid"/>
          </div>
      )
    }

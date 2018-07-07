@@ -1,0 +1,9 @@
+@media (max-width: 1000px){
+  .container {
+    grid-area: 'title',
+               'contact',
+               'skills';
+    grid-template-rows: 100%;
+    grid-template-columns: 100%;
+  }
+}

@@ -7,15 +7,16 @@
 @media (max-width: 700px){
   .grid figure {
   	position: relative;
-  	float: left;
   	overflow: hidden;
-  	margin: 10px 1%;
-  	min-width: 250px;
-  	max-width: 380px;
-  	max-height: 250px;
+  	max-width: 400px;
+  	max-height: auto;
   	background: #3085a3;
   	text-align: center;
-  	cursor: pointer;
-    margin: 10px;
+  }
+
+  .grid figure img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
   }
 }

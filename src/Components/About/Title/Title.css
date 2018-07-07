@@ -1,9 +1,10 @@
 .titleContainer {
   display: flex;
+  width: auto;
+  height: auto;
   position: relative;
   align-content: left;
   justify-content: center;
-  flex-direction: column;
   background-color: rgba(255, 255, 255,  0.6);
   box-shadow: 0 4px  4px  rgba(157, 204, 250, .1),
             0 1px  6px  rgba(157, 204, 250, .05),
