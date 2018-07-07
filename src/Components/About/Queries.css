@@ -5,7 +5,7 @@
 }
 
 @media (max-width: 700px){
-  .container {
-    max-width: 350px;
+  .skillsContainer, .socialContainer, .titleContainer {
+    max-width: 300px;
   }
 }

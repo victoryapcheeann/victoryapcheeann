@@ -1,37 +1,43 @@
 .titleContainer {
   display: flex;
-  width: auto;
-  height: auto;
-  margin-right: 30px;
-  padding: 30px;
   position: relative;
-  align-content: left;
+  align-content: center;
+  padding: 10px;
+  margin: 0px 30px 30px 30px;
   justify-content: center;
+  flex-direction: column;
   background-color: rgba(255, 255, 255,  0.6);
   box-shadow: 0 4px  4px  rgba(157, 204, 250, .1),
             0 1px  6px  rgba(157, 204, 250, .05),
             0 8px  8px  rgba(157, 204, 250, .1),
             0 16px 16px rgba(157, 204, 250, .1),
-            8px 32px 32px rgba(157, 204, 250, .15),
-            8px 64px 64px rgba(157, 204, 250,.15);
+            8px 32px 32px rgba(157, 204, 250, .1),
+            8px 64px 64px rgba(157, 204, 250,.1);
 }
 
 .stripe {
   height: 5px;
-  margin-top: 10px;
-}
-
-.titleText {
-  pointer-events: none;
-  line-height: 10px;
-}
-
-.myName {
-  position: relative;
+  margin-top: 20px;
 }
 
 .jobTitle {
   color: grey;
+  pointer-events: none;
+  line-height: 10px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 10;
+  text-transform: uppercase;
+  margin: 10px 10px 10px 10px;
+}
+
+.nameStyle {
+  text-transform: uppercase;
+  font-weight: 900;
+  margin: 40px 10px 0px 10px;
+}
+
+.pictureStyle {
+  margin-top: 30px;
 }
 
 .profilePic {
@@ -41,19 +47,11 @@
 }
 
 .titleDescription {
-  line-height: 0.5em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  font-family: 'Lora';
+  margin-right: 20px;
 }
 
-.titleDescription {
-  font-size: 25px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.nameContainer {
+  margin-left: 10px;
 }
 
 .rw-words{

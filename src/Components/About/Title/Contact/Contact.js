@@ -11,11 +11,11 @@ class Contact extends Component{
         <div className="contactContainer">
             <div className="columnStyle">
               <div className="contactText textStyle columnLeftStyle">
-                <span><IoMail size={30} color="CornflowerBlue"/>victoryapcheeann@gmail.com</span>
+                <span><IoMail size={30} color="CornflowerBlue"/> victoryapcheeann@gmail.com</span>
                 <br />
-                <span><IoIphone size={30} color="CornflowerBlue"/>90025405</span>
+                <span><IoIphone size={30} color="CornflowerBlue"/> 90025405</span>
                 <br />
-                <span><FaHome size={30} color="CornflowerBlue"/>Singaporean</span>
+                <span><FaHome size={30} color="CornflowerBlue"/> Singaporean</span>
               </div>
             </div>
         </div>

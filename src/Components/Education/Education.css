@@ -92,7 +92,6 @@
 }
 
 .bp-icon:after {
-	font-family: 'bpicons';
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -255,7 +254,6 @@
 .education_tmtimeline > li .education_tmicon {
 	width: 40px;
 	height: 40px;
-	font-family: 'ecoico';
 	speak: none;
 	font-style: normal;
 	font-weight: normal;

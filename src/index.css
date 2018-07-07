@@ -1,26 +1,31 @@
 body {
   margin: 0;
   padding: 0;
-  font-family:'Lato';
+  font-family:'Lato',arial, sans-serif;
   overflow-x: hidden;
 }
 
 .h1Style {
-  font-size: 40px;
+  font-size: 34px;
   font-weight: bold;
+  margin: 20px 20px 0px 20px;
 }
 
 .h2Style {
   font-size: 22px;
 }
 
-.textStyle {
+.h3Style {
   font-size: 18px;
 }
 
+.textStyle {
+  font-size: 15px;
+}
+
 .quotesStyle {
-  font-size: 40px;
-  margin: 5px;
+  font-size: 25px;
+  margin: 0 auto;
   font-family: 'Qwigley';
   text-align: center;
 }
