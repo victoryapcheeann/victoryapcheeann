@@ -72,6 +72,12 @@ body {
   flex-direction: column;
 }
 
+.listStyle {
+  list-style-type: square;
+  list-style-position: inside;
+  margin-bottom: 10px;
+}
+
 .nav {
   position: fixed;
   z-index: 9999;

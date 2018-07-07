@@ -17,7 +17,9 @@ class Footer extends Component{
         </div>
         <SurveyComponent />
         <div className="footerDescription">
-          <p>Caulie dandelion maize lentil collard greens radish arugula sweet pepper water spinach kombu courgette lettuce. Celery coriander bitterleaf epazote radicchio shallot winter purslane collard greens spring onion squash lentil. Artichoke salad bamboo shoot black-eyed pea brussels sprout garlic kohlrabi.</p>
+          <p>If you have any colloboration opportunities, hit me up!</p>
+          <p>Just drop me a message or email at</p>
+          <p>victoryapcheeann@gmail.com</p>
         </div>
       </div>
     );

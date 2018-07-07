@@ -24,6 +24,9 @@
   padding: 10px;
 }
 
+.iconMarginStyle {
+  margin: 10px;
+}
 .skillGradient {
 background-image: linear-gradient(-225deg, #A445B2 0%, #D41872 52%, #FF0066 100%);
 }

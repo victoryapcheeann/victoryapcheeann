@@ -1,3 +1,12 @@
+.careerDetailsContainer {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.careerDetailsMargin {
+	margin-left: 20px;
+}
+
 .main,
 .careerContainer > header {
 	width: 90%;
@@ -8,6 +17,12 @@
 
 .careerContainer > header {
 	padding: 2.875em 1.875em 1.875em;
+}
+.career_companyLogo {
+	width: 100%;
+	height: auto;
+	max-width: 80px;
+	max-height: 100px;
 }
 
 .careerContainer > header h1 {
@@ -23,7 +38,6 @@
 	position: relative;
 	z-index: 9999;
 	font-weight: 700;
-	text-transform: uppercase;
 	letter-spacing: 0.5em;
 	padding: 0 0 0.6em 0.1em;
 }
@@ -227,8 +241,7 @@
 }
 
 .career_tmtimeline > li .career_tmlabel h2 {
-	margin-top: 0px;
-	padding: 0 0 10px 0;
+	margin: 0px 0px 5px 0px;
 	border-bottom: 1px solid rgba(255,255,255,0.4);
 }
 

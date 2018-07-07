@@ -93,7 +93,7 @@ class Skills extends Component{
               <div className="rowStyle">
                 <div className="columnStyle">
                   {myInterestsIcon.map((Component) => (
-                      <Component size={25} color="DodgerBlue" className="btn"/>
+                      <Component size={30} color="DodgerBlue" className="iconMarginStyle"/>
                   ))}
                 </div>
                 <div className="columnLeftStyle">
