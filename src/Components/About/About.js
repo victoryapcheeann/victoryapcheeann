@@ -15,7 +15,9 @@ class About extends Component{
               <TitleComponent />
               <Social />
             </div>
+            <div>
               <SkillsComponent />
+            </div>
          </div>
      )
    }
