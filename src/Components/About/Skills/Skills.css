@@ -15,7 +15,7 @@
             8px 64px 64px rgba(157, 204, 250,.15);
 }
 
-.btn {
+.skillBtnStyle {
   display: inline-block;
   text-align: center;
   color: rgba(255,255,255,0.9);
@@ -24,14 +24,14 @@
   padding: 10px;
 }
 
-.skillBtn {
+.skillGradient {
 background-image: linear-gradient(-225deg, #A445B2 0%, #D41872 52%, #FF0066 100%);
 }
 
-.learnBtn {
+.learnGradient {
 background-image: linear-gradient(-225deg, #65379B 0%, #886AEA 53%, #6457C6 100%);
 }
 
-.interestBtn {
+.interestGradient {
 background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
 }

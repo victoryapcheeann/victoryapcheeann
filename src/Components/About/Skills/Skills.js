@@ -64,7 +64,7 @@ class Skills extends Component{
               </div>
               <div className>
                 {mySkills.map((mySkill) => (
-                  <span className="skillBtn btn">{mySkill.skill}</span>
+                  <span className="skillGradient skillBtnStyle">{mySkill.skill}</span>
                 ))}
               </div>
             </div>
@@ -78,7 +78,7 @@ class Skills extends Component{
               </div>
               <div className>
                 {myLearns.map((myLearn) => (
-                  <span className="learnBtn btn">{myLearn.learn}</span>
+                  <span className="learnGradient skillBtnStyle">{myLearn.learn}</span>
                 ))}
               </div>
             </div>
@@ -98,7 +98,7 @@ class Skills extends Component{
                 </div>
                 <div className="columnLeftStyle">
                   {myInterests.map((myInterest) => (
-                    <span className="interestBtn btn">{myInterest.interest}</span>
+                    <span className="interestGradient skillBtnStyle">{myInterest.interest}</span>
                   ))}
                 </div>
               </div>
@@ -117,8 +117,8 @@ class Skills extends Component{
                     type={'triangle'}
                     duration={1000}
                     direction={'top'}
-                    particlesAmountCoefficient={3}
-                    oscillationCoefficient={10}>
+                    particlesAmountCoefficient={6}
+                    oscillationCoefficient={30}>
                      <div>
                      <div class="scrolldown-container">
                        <div class="scrolldown-btn">

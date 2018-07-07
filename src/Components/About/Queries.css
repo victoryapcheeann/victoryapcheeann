@@ -5,7 +5,11 @@
 }
 
 @media (max-width: 700px){
-  .skillsContainer, .socialContainer, .titleContainer {
+  .socialContainer, .titleContainer {
     max-width: 300px;
+  }
+
+  .skillsContainer {
+    max-width: 350px;
   }
 }

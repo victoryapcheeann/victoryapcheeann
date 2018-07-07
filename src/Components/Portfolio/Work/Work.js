@@ -3,10 +3,10 @@ import './Work.css';
 import './Queries.css';
 
 const myWorksStyle1 = [
-  {title: 'ABC', description1: 'EFG', description2: 'WEEE', description3: 'ecc'},
-  {title: 'ABC', description1: 'EFG', description2: 'WEEE', description3: 'ecc'},
-  {title: 'ABC', description1: 'EFG', description2: 'WEEE', description3: 'ecc'},
-  {title: 'ABC', description1: 'EFG', description2: 'WEEE', description3: 'ecc'}
+  {title: 'Dasher', picture: 'dashboard', description1: 'Show how much you spend!', description2: 'Control your expenses!', link: 'http://www.facebook.com', category: ['UX Design', 'Data Visualisation']},
+  {title: 'Pizzy', picture: 'pizza', description1: 'Best pizza in town!', description2: 'Check it out!', link: '', category: ['UX Design', 'HTML', 'CSS']},
+  {title: 'Revents', picture: 'events', description1: 'Feeling bored?', description2: 'Come and join our events now!', link: '', category: ['Reactjs', 'Firebase', 'Redux']},
+  {title: 'Mr Sunny', picture: 'weather', description1: 'Better to be safe than sorry!', description2: 'Check your weather now!', link: '', category: ['UX Design', 'Reactjs']}
 ];
 
 class work extends Component{
@@ -17,14 +17,23 @@ class work extends Component{
                   <div>
                     <div class="grid">
                       <figure class="effect-julia">
-                        <img src="/pizza.png" alt="img21"/>
+                        <img src={`/${myWork.picture}.png`} alt="img21"/>
                         <figcaption>
                           <h2>{myWork.title}</h2>
                           <div>
                             <p>{myWork.description1}</p> <br />
                             <p>{myWork.description2}</p> <br />
-                            <p>{myWork.description3}</p> <br /> <br />
-                            <p><a href="#">Visit Project</a></p>
+                            <p>
+                              {myWork.category.map((myCategory) => (
+                              <span className="workBtnStyle categoryGradient">{myCategory} </span>
+                              ))}
+                            </p>
+                            <br /> <br />
+                            {myWork.link.trim() == ""?
+                            <p><a className="workBtnStyle wipGradient">Work in progress</a></p>
+                              :
+                            <p><a href={`${myWork.link}`} className="workBtnStyle visitGradient">Visit Project</a></p>
+                            }
                           </div>
                         </figcaption>
                       </figure>

@@ -10,7 +10,7 @@ import Social from './Social/Social'
 class About extends Component{
    render() {
      return (
-         <div className="container">
+         <div className="aboutContainer">
             <div className="columnStyle">
               <TitleComponent />
               <Social />
