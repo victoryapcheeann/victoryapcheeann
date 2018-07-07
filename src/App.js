@@ -15,7 +15,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <nav className="nav">
+        <nav className="nav rowLeftStyle">
           <input type="checkbox" className="nav__cb" id="menu-cb"/>
           <label className="nav__btn" for="menu-cb"></label>
           <div className="nav__content">

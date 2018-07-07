@@ -57,12 +57,12 @@ class Skills extends Component{
         <div className="skillsContainer">
             <div className="columnStyle">
             <div className="rowStyle">
-              <div className="loader-item">
-                <div className="loader loader-1"></div>
+              <div className="effects-item">
+                <div className="effects effects-1"></div>
               </div>
                 <p className="h2Style">My Skills</p>
               </div>
-              <div>
+              <div className>
                 {mySkills.map((mySkill) => (
                   <span className="skillBtn btn">{mySkill.skill}</span>
                 ))}
@@ -71,12 +71,12 @@ class Skills extends Component{
             <br />
             <div className="columnStyle">
             <div className="rowStyle">
-              <div className="loader-item">
-                  <div className="loader loader-2"></div>
+              <div className="effects-item">
+                  <div className="effects effects-2"></div>
                 </div>
                 <p className="h2Style">To Learn List</p>
               </div>
-              <div>
+              <div className>
                 {myLearns.map((myLearn) => (
                   <span className="learnBtn btn">{myLearn.learn}</span>
                 ))}
@@ -85,8 +85,8 @@ class Skills extends Component{
             <br />
             <div className="columnStyle">
               <div className="rowStyle">
-                <div className="loader-item">
-                  <div className="loader loader-3"></div>
+                <div className="effects-item">
+                  <div className="effects effects-3"></div>
                 </div>
                 <p className="h2Style">My Interest</p>
               </div>

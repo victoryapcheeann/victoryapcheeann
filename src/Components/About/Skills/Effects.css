@@ -1,23 +1,23 @@
-.loader-item {
+.effects-item {
   width: 40px;
   height: 40px;
   display: flex;
   margin-right: 10px;
 }
 
-.loader {
+.effects {
   width: 30px;
   height: 30px;
   position: relative;
   margin: auto;
 }
 
-.loader::before, .loader::after {
+.effects::before, .effects::after {
   content: "";
   position: absolute;
 }
 
-.loader-1 {
+.effects-1 {
   -webkit-perspective: 500px;
           perspective: 500px;
   -webkit-transform-style: preserve-3d;
@@ -27,7 +27,7 @@
   animation:FlyAnimation 6s cubic-bezier(0.3, 0.27, 0.07, 1.64) infinite;
 }
 
-.loader-1::before, .loader-1::after {
+.effects-1::before, .effects-1::after {
   border-radius: 50%;
   width: 16px;
   height: 16px;
@@ -41,7 +41,7 @@
           animation-iteration-count: infinite;
   animation:FlyAnimation 6s linear infinite;
 }
-.loader-1::before {
+.effects-1::before {
   left: 0;
   opacity: 0.7;
   border-top-right-radius: 0;
@@ -50,7 +50,7 @@
   -webkit-animation-name: flapL;
           animation-name: flapL;
 }
-.loader-1::after {
+.effects-1::after {
   left: 50%;
   opacity: 0.5;
   border-top-left-radius: 0;
@@ -139,7 +139,7 @@
 
 
 
-.loader-2 {
+.effects-2 {
   border-radius: 50%;
   width: 4px;
   height: 4px;
@@ -149,14 +149,14 @@
   -webkit-transform: translateX(14px);
           transform: translateX(14px);
 }
-.loader-2::before, .loader-2::after {
+.effects-2::before, .effects-2::after {
   border-radius: 50%;
   border: 14px solid blueviolet;
   border-right-color: transparent;
   top: -12px;
   left: -24px;
 }
-.loader-2, .loader-2::before, .loader-2::after {
+.effects-2, .effects-2::before, .effects-2::after {
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
   -webkit-animation-timing-function: linear;
@@ -164,11 +164,11 @@
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
 }
-.loader-2::before {
+.effects-2::before {
   -webkit-animation-name: upperJaw;
           animation-name: upperJaw;
 }
-.loader-2::after {
+.effects-2::after {
   -webkit-animation-name: lowerJaw;
           animation-name: lowerJaw;
 }
@@ -231,23 +231,23 @@
   }
 }
 
-.loader-3 {
+.effects-3 {
   border: 1px solid DodgerBlue;
   border-radius: 50%;
   -webkit-animation: counterClockwise 4s linear infinite;
           animation: counterClockwise 4s linear infinite;
 }
-.loader-3::before, .loader-3::after {
+.effects-3::before, .effects-3::after {
   border-radius: 50%;
 }
-.loader-3::before {
+.effects-3::before {
   width: 8px;
   height: 8px;
   background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
   -webkit-animation: clockwise 4s linear infinite;
           animation: clockwise 4s linear infinite;
 }
-.loader-3::after {
+.effects-3::after {
   width: 4px;
   height: 4px;
   top: 8px  ;

@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family:'Lato';
+  overflow-x: hidden;
 }
 
 .h1Style {
@@ -10,7 +11,7 @@ body {
 }
 
 .h2Style {
-  font-size: 26px;
+  font-size: 22px;
 }
 
 .textStyle {
@@ -59,7 +60,7 @@ body {
   flex-direction: row;
 }
 
-.columnEightStyle {
+.columnRightStyle {
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
