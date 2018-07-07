@@ -2,6 +2,76 @@
   overflow-x: hidden;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  font-family:'Lato', sans-serif;
+  overflow-x: hidden;
+}
+
+.h1Style {
+  font-size: 34px;
+  font-weight: bold;
+  margin: 20px 20px 0px 20px;
+}
+
+.h2Style {
+  font-size: 18px;
+}
+
+.textStyle {
+  font-size: 15px;
+}
+
+.quotesStyle {
+  font-size: 25px;
+  margin: 0 auto;
+  font-family: 'Qwigley';
+  text-align: center;
+}
+
+.rowStyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.columnStyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.rowLeftStyle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.columnLeftStyle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.rowRightStyle {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+.columnRightStyle {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
 .nav {
   position: fixed;
   z-index: 9999;
