@@ -6,7 +6,7 @@ class Portfolio extends Component{
   render() {
     return (
         <div className="portfolioContainer">
-          <div className="headerContainer">
+          <div className="columnStyle">
             <p className="h1Style">Portfolio</p>
             <p className="quotesStyle">
               <span>Show, Dont tell, Seeing is believing</span> <br />

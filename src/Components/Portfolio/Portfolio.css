@@ -6,12 +6,3 @@
   align-items: center;
   width: 100%;
 }
-
-.headerContainer {
-  padding-top: 12vh;
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  text-align: center;
-  position: relative;
-}

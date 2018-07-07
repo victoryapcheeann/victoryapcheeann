@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ContactComponent from './Contact/Contact'
 import './Title.css';
 
 class Title extends Component{
@@ -18,11 +19,12 @@ class Title extends Component{
                   <p>I turn complex idea into
                   <p className ="rw-words rw-words-1 rowStyle">
                       <span>elegant products</span>
-                      <span>beautiful interfaces</span>
+                      <span>  beautiful interfaces</span>
                       <span>simple concepts</span>
                   </p>
                   </p>
               </div>
+            <ContactComponent />
           </div>
         </div>
     );

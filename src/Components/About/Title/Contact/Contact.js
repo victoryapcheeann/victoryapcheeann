@@ -15,16 +15,12 @@ class Contact extends Component{
     return (
         <div className="contactContainer">
             <div className="columnStyle">
-              <div className="h2Style">
-                Basic Information
-              </div>
-              <br />
               <div className="contactText textStyle columnLeftStyle">
-                <span><IoMail size={30} color="CornflowerBlue"/> Email: victoryapcheeann@gmail.com</span>
+                <span><IoMail size={30} color="CornflowerBlue"/>victoryapcheeann@gmail.com</span>
                 <br />
-                <span><IoIphone size={30} color="CornflowerBlue"/> Phone: 90025405</span>
+                <span><IoIphone size={30} color="CornflowerBlue"/>90025405</span>
                 <br />
-                <span><FaHome size={30} color="CornflowerBlue"/> Nationality: Singaporean</span>
+                <span><FaHome size={30} color="CornflowerBlue"/>Singaporean</span>
               </div>
               <br />
               <br />

@@ -1,23 +1,15 @@
 .container {
-  display: grid;
-  grid-area: 'title skills',
-             'title skills',
-             'contact skills',
-             'contact skills';
-  grid-template-rows: 25% 25% 25% 25%;
-  grid-template-columns: 50% 50%;
-  grid-gap: 50px;
-  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 30px;
 }
 
-.titleGrid {
-  grid-area: skills;
-}
-
-.contactGrid {
-  grid-area: contact;
-}
-
-.skillsGrid {
-  grid-area: title;
+.basicInfoGrid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 10px;
 }

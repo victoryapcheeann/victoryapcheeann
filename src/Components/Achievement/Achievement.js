@@ -11,7 +11,7 @@ class Achievement extends Component{
   render() {
     return (
       <div className="achievementContainer">
-        <div className="headerContainer">
+        <div className="columnStyle">
           <p className="h1Style">Achievement</p>
           <p className="quotesStyle">
             <span>Pen is mightier than the sword</span>

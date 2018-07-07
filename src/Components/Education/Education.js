@@ -11,7 +11,7 @@ class Education extends Component{
   render() {
     return (
       <div className="educationContainer">
-        <div className="headerContainer">
+        <div className="columnStyle">
           <p className="h1Style">Education</p>
           <p className="quotesStyle">
             <span>Pen is mightier than the sword</span>
