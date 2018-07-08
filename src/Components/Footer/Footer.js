@@ -38,6 +38,7 @@ class Footer extends Component{
             <p>victoryapcheeann@gmail.com</p>
           </div>
         </Jump>
+        <p>© Victor Yap 2018 / No rights reserved</p>
       </div>
     );
   }
