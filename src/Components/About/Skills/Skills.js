@@ -106,7 +106,7 @@ class Skills extends Component{
               </div>
             </div>
             <div className ="columnStyle">
-              <a href="/resume.doc" download>
+              <a href="/resume.pdf" download>
                 <div className="rowStyle" onClick={ this.expandToggle }>
                   <p className="fancy-button bg-gradient1">
                     <span>Download Resume </span>
