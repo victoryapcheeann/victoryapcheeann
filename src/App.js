@@ -2,7 +2,6 @@
 import React, { Component } from 'react';
 import scrollToComponent from 'react-scroll-to-component';
 import Zoom from 'react-reveal/Zoom';
-import Jump from 'react-reveal/Jump';
 import './App.css'
 
 import About from './Components/About/About';
@@ -16,7 +15,7 @@ class App extends Component {
   render() {
     return (
       <div className = "appContainer">
-        <Jump delay={2400} duration={1000} count={3}>
+        <Zoom delay={1400} duration={1000}>
           <nav className="nav rowLeftStyle">
             <input type="checkbox" className="nav__cb" id="menu-cb"/>
             <label className="nav__btn" for="menu-cb"></label>
@@ -45,7 +44,7 @@ class App extends Component {
               </ul>
             </div>
           </nav>
-        </Jump>
+        </Zoom>
         <div>
             <About className ='about' ref={(div) => { this.about = div;}}/>
             <Portfolio className ='portfolio' ref={(div) => { this.portfolio = div;}}/>
