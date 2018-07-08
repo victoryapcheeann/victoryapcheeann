@@ -17,7 +17,6 @@ class App extends Component {
     return (
       <div className = "appContainer">
         <Jump delay={2400} duration={1000} count={3}>
-        <Zoom delay={1400} duration={1000}>
           <nav className="nav rowLeftStyle">
             <input type="checkbox" className="nav__cb" id="menu-cb"/>
             <label className="nav__btn" for="menu-cb"></label>
@@ -46,7 +45,6 @@ class App extends Component {
               </ul>
             </div>
           </nav>
-        </Zoom>
         </Jump>
         <div>
             <About className ='about' ref={(div) => { this.about = div;}}/>
