@@ -9,7 +9,7 @@ const myAchievements = [
   'Gather and communicate views from my peers on various aspects of your course.',
   'Report back to my classmates on discussions that take place at staff-student liaison and other meetings, and share information about any resultant action.'
   ]},
-  {company: 'Fine Wine Rack, Champion', startDate: '2013', endDate: '2013',
+  {company: 'Fine Wine Rack Project, Champion', startDate: '2013', endDate: '2013',
   description: ['An individual class project competition that had over 500 competitors',
   'Developing an efficient schedule and assigning activities for 4 crew members',
   'Tracked inventory level and kept sufficient materials when needed',

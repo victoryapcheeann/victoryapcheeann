@@ -9,11 +9,13 @@ import MdWeb from 'react-icons/lib/md/web';
 import FaDatabase from 'react-icons/lib/fa/database';
 
 const mySkills = [
-  {skill: 'HTML'}, {skill: 'CSS'}, {skill: 'Javascript'}, {skill: 'ReactJS'}, {skill: 'React Native'}, {skill: 'C#'}, {skill: 'SQL'}
+  {skill: 'HTML'}, {skill: 'CSS'}, {skill: 'Javascript'}, {skill: 'ReactJS'},
+  {skill: 'React Native'}, {skill: 'C#'}, {skill: 'SQL'}, {skill: 'MongoDB'}
 ];
 
 const myLearns = [
-  {learn: 'Go'}, {learn: 'Jest & Jamine'}, {learn: 'MERN Stack'}, {learn: 'MongoDB'}, {learn: 'Dart & Flutter'},
+  {learn: 'Go'}, {learn: 'Jest & Jasmine'}, {learn: 'MERN Stack'},
+  {learn: 'Dart & Flutter'},
 ];
 
 const myInterests = [

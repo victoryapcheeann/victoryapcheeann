@@ -5,7 +5,7 @@ import FaLaptop from 'react-icons/lib/fa/laptop';
 const myExperiences = [
   {company: 'www.victoryap.com', companyLogo: 'victoryap', position: 'Self-taught developer',
   startDate: '2017', endDate: 'Present',
-  techStack: ['Reactjs', 'React Native', 'MERN', 'AWS/Firebase', 'Jest & Jamine', 'Go'],
+  techStack: ['Reactjs', 'React Native', 'MERN', 'AWS/Firebase', 'Jest & Jamine'],
   description: [
   'Keeping myself updated with latest technology trend',
   'Inspiration & Knowledge: Udemy, Codepen, Dribble, Pininterest, Youtube',
@@ -22,7 +22,7 @@ const myExperiences = [
   'Make changes to configurable items, which include hardware, software, documentation',
   'Assist in the integration testing, system testing, User Acceptance Test to ensure smooth execution of programs in the production environment',
   'Prepare & maintain up-to-date system documentation',
-  'Investigate all reported problems/erros & initiate amendments & testing so that the sytem can operate correctly & efficiently'
+  'Investigate all reported problems/errors & initiate amendments & testing so that the system can operate correctly & efficiently'
   ]},
   {company: 'Island Peak Tech', companyLogo: 'islandpeaktech', position: 'Software Developer Intern (Backend)',
   startDate: 'Oct 2016', endDate: 'Mar 2017',
