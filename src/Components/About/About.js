@@ -13,13 +13,13 @@ class About extends Component{
    render() {
      return (
          <div className="aboutContainer">
-              <Bounce left duration={2000}>
+              <Bounce left duration={2000} delay={500}>
                 <div className="columnStyle">
                   <TitleComponent />
                   <Social />
                 </div>
               </Bounce>
-              <Bounce right duration={2000}>
+              <Bounce right duration={2000} delay={1000}>
                 <div>
                     <SkillsComponent />
                 </div>
