@@ -33,14 +33,14 @@ class Experience extends Component{
                 </div>
               </div>
             </Bounce>
-            <Bounce left duration={1000} delay={400}>
+            <Bounce left duration={1000} delay={300}>
               <p>
                 {myExperience.techStack.map((techStack) => (
                 <span className="techStackStyle techStackGradient">{techStack} </span>
                 ))}
               </p>
             </Bounce>
-            <Bounce left duration={1000} delay={600}>
+            <Bounce left duration={1000} delay={400}>
               {myExperience.description.map((description) => (
                 <li className='listStyle'>{description}</li>
               ))}
