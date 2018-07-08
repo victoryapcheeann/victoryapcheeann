@@ -24,7 +24,7 @@ class Experience extends Component{
             <time className="experience_tmtime"><span>{myExperience.startDate}</span> <span>to</span><span>{myExperience.endDate}</span></time>
             <div className="experience_tmicon"><FaLaptop /></div>
             <div className="experience_tmlabel">
-            <Bounce left duration={1000} delay={200}>
+            <Bounce left duration={1000} delay={150}>
               <div className="experienceDetailsContainer">
                 <img src={`/${myExperience.companyLogo}.png`} alt="img21" className="experience_companyLogo"/>
                 <div className="columnLeftStyle experienceDetailsMargin">
@@ -33,14 +33,14 @@ class Experience extends Component{
                 </div>
               </div>
             </Bounce>
-            <Bounce left duration={1000} delay={300}>
+            <Bounce left duration={1000} delay={100}>
               <p>
                 {myExperience.techStack.map((techStack) => (
                 <span className="techStackStyle techStackGradient">{techStack} </span>
                 ))}
               </p>
             </Bounce>
-            <Bounce left duration={1000} delay={400}>
+            <Bounce left duration={1000} delay={100}>
               {myExperience.description.map((description) => (
                 <li className='listStyle'>{description}</li>
               ))}

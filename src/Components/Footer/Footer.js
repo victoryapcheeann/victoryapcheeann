@@ -31,7 +31,7 @@ class Footer extends Component{
         <Tada duration={1000} delay={200} count={3}>
           <SurveyComponent />
         </Tada>
-        <Jump duration={2000} delay={3200} forever>
+        <Jump duration={2000} delay={2000} forever>
           <div className="footerDescription">
             <p>If you have any colloboration opportunities, hit me up!</p>
             <p>Just drop me an email @</p>
