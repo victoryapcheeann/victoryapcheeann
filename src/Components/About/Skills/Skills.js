@@ -46,7 +46,7 @@ class Skills extends Component{
     return (
         <div className="skillsContainer">
             <div className="columnStyle">
-            <Bounce right duration={1000} delay={500}>
+            <Bounce right duration={1000} delay={200}>
             <div className="rowStyle">
               <div className="effects-item">
                 <div className="effects effects-1"></div>
@@ -62,7 +62,7 @@ class Skills extends Component{
             </div>
             <br />
             <div className="columnStyle">
-            <Bounce right duration={1000} delay={500}>
+            <Bounce right duration={1000} delay={400}>
               <div className="rowStyle">
                 <div className="effects-item">
                     <div className="effects effects-2"></div>
@@ -78,7 +78,7 @@ class Skills extends Component{
               </div>
             <br />
             <div className="columnStyle">
-            <Bounce right duration={1000} delay={500}>
+            <Bounce right duration={1000} delay={600}>
               <div className="rowStyle">
                 <div className="effects-item">
                   <div className="effects effects-3"></div>
@@ -100,7 +100,7 @@ class Skills extends Component{
             </Bounce>
             </div>
             <div className ="columnStyle">
-            <LightSpeed right duration={1000} delay={500}>
+            <LightSpeed right duration={1000} delay={800}>
               <a href="/resume.pdf" download>
                 <div className="rowStyle" onClick={ this.expandToggle }>
                   <p className="fancy-button bg-gradient1">

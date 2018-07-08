@@ -28,10 +28,10 @@ class Footer extends Component{
           </HeadShake>
         </Wobble>
         </div>
-        <Tada duration={2000} delay={500} count={3}>
+        <Tada duration={1000} delay={200} count={3}>
           <SurveyComponent />
         </Tada>
-        <Jump duration={2000} delay={6500} forever>
+        <Jump duration={2000} delay={3200} forever>
           <div className="footerDescription">
             <p>If you have any colloboration opportunities, hit me up!</p>
             <p>Just drop me an email @</p>

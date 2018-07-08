@@ -18,16 +18,16 @@ class Achievement extends Component{
       </Bounce>
       <div className="main">
         <ul className="achievement_tmtimeline">
-        <Bounce left duration={1000} delay={100}>
+        <Bounce left duration={500} delay={100}>
         {myAchievements.map((myAchievement) => (
           <li>
             <time className="achievement_tmtime"><span>{myAchievement.startDate}</span> <span>to</span><span>{myAchievement.endDate}</span></time>
             <div className="achievement_tmicon"><FaTrophy /></div>
               <div className="achievement_tmlabel">
-              <Bounce left duration={1000} delay={1000}>
+              <Bounce left duration={1000} delay={200}>
                 <h2>{myAchievement.title}</h2>
               </Bounce>
-              <Bounce left duration={1000} delay={1500}>
+              <Bounce left duration={1000} delay={400}>
                 {myAchievement.description.map((description) => (
                   <li className='listStyle'>{description}</li>
                 ))}

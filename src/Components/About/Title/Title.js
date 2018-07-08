@@ -13,7 +13,7 @@ class Title extends Component{
     return (
         <div className="titleText titleHeader titleContainer">
           <div className="titleTextContainer">
-          <Fade top duration={1000} delay={500}>
+          <Fade top duration={1000} delay={200}>
             <div className="rowLeftStyle profileContainer">
               <div className="pictureStyle">
                 <img src="/profilePicture.png" className="profilePic" alt="Avatar"/>
@@ -27,10 +27,10 @@ class Title extends Component{
               </div>
             </div>
           </Fade>
-          <Flip top duration={1000} delay={500}>
+          <Flip top duration={1000} delay={400}>
             <div className="stripe titleGradient"/>
           </Flip>
-          <Zoom left duration={1000} delay={500}>
+          <Zoom left duration={1000} delay={600}>
               <div className="rowStyle">
                 <div className="titleDescription rowStyle textStyle">
                     <p>I turn complex idea into
@@ -44,7 +44,7 @@ class Title extends Component{
                 <CoffeeComponent />
               </div>
           </Zoom>
-          <LightSpeed left duration={1000} delay={500}>
+          <LightSpeed left duration={1000} delay={800}>
             <ContactComponent />
           </LightSpeed>
           </div>

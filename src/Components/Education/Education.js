@@ -18,13 +18,13 @@ class Education extends Component{
       </Bounce>
       <div className="main">
         <ul className="education_tmtimeline">
-        <Bounce left duration={1000} delay={100}>
+        <Bounce left duration={500} delay={100}>
         {myEducations.map((myEducation) => (
           <li>
             <time className="education_tmtime"><span>{myEducation.startDate}</span> <span>to</span><span>{myEducation.endDate}</span></time>
             <div className="education_tmicon"><FaBook /></div>
             <div className="education_tmlabel">
-            <Bounce left duration={1000} delay={1000}>
+            <Bounce left duration={1000} delay={200}>
               <div className="educationDetailsContainer">
                 <img src={`/${myEducation.schoolLogo}.png`} alt="img21" className="education_schoolLogo"/>
                 <div className="columnLeftStyle educationDetailsMargin">
@@ -33,7 +33,7 @@ class Education extends Component{
                 </div>
               </div>
             </Bounce>
-            <Bounce left duration={1000} delay={1500}>
+            <Bounce left duration={1000} delay={400}>
               <p>{myEducation.description}</p>
             </Bounce>
             </div>
