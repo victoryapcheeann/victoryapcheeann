@@ -6,7 +6,7 @@ import './App.css'
 
 import About from './Components/About/About';
 import Portfolio from './Components/Portfolio/Portfolio';
-import Career from './Components/Career/Career';
+import Experience from './Components/Experience/Experience';
 import Education from './Components/Education/Education';
 import Achievement from './Components/Achievement/Achievement';
 import Footer from './Components/Footer/Footer';
@@ -31,8 +31,8 @@ class App extends Component {
                 </span>
               </li>
               <li className="nav__item">
-                <span className="nav__item-text" key = 'CareerKey' onClick={() => {scrollToComponent(this.career,{ offset: 0, align: 'top', duration: 300, ease:'inExpo'});}}>
-                  Career
+                <span className="nav__item-text" key = 'ExperienceKey' onClick={() => {scrollToComponent(this.experience,{ offset: 0, align: 'top', duration: 300, ease:'inExpo'});}}>
+                  Experience
                 </span>
               </li>
               <li className="nav__item">
@@ -46,7 +46,7 @@ class App extends Component {
         <div>
             <About className ='about' ref={(div) => { this.about = div;}}/>
             <Portfolio className ='portfolio' ref={(div) => { this.portfolio = div;}}/>
-            <Career className ='career' ref={(div) => { this.career = div;}}/>
+            <Experience className ='experience' ref={(div) => { this.experience = div;}}/>
             <Education className ='education' ref={(div) => { this.education = div;}}/>
             <Achievement />
             <Footer />

@@ -18,6 +18,7 @@
     border-radius: 0px 20px 20px 0px;
     left: 20px;
 }
+
 .coffee_cup:before{
     width: 2px;
     height: 6px;
@@ -27,9 +28,9 @@
     box-shadow: 5px 0px 0px 0px black,
                 5px -5px 0px 0px black,
                 10px 0px 0px 0px black;
-    -webkit-animation: steam 1s linear infinite alternate;
-       -moz-animation: steam 1s linear infinite alternate;
-            animation: steam 1s linear infinite alternate;
+    -webkit-animation: steam 1s linear infinite reverse;
+       -moz-animation: steam 1s linear infinite reverse;
+            animation: steam 1s linear infinite reverse;
 }
 
 @-webkit-keyframes steam{

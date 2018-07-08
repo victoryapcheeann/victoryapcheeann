@@ -18,7 +18,7 @@ class Footer extends Component{
         <SurveyComponent />
         <div className="footerDescription">
           <p>If you have any colloboration opportunities, hit me up!</p>
-          <p>Just drop me a message or email at</p>
+          <p>Just drop me an email @</p>
           <p>victoryapcheeann@gmail.com</p>
         </div>
       </div>
