@@ -2,10 +2,6 @@ import React, { Component } from 'react';
 import './Skills.css';
 import './Effects.css';
 import './Scroll.css'
-
-import Bounce from 'react-reveal/Bounce';
-import LightSpeed from 'react-reveal/LightSpeed';
-
 import ParticleEffect from 'react-particle-effect-button'
 
 import GoPaintcan from 'react-icons/lib/go/paintcan';
@@ -46,7 +42,6 @@ class Skills extends Component{
     return (
         <div className="skillsContainer">
             <div className="columnStyle">
-            <Bounce right duration={1000} delay={200}>
             <div className="rowStyle">
               <div className="effects-item">
                 <div className="effects effects-1"></div>
@@ -58,11 +53,10 @@ class Skills extends Component{
                   <span className="skillGradient skillBtnStyle">{mySkill.skill}</span>
                 ))}
               </div>
-            </Bounce>
+
             </div>
             <br />
             <div className="columnStyle">
-            <Bounce right duration={1000} delay={400}>
               <div className="rowStyle">
                 <div className="effects-item">
                     <div className="effects effects-2"></div>
@@ -74,11 +68,10 @@ class Skills extends Component{
                     <span className="learnGradient skillBtnStyle">{myLearn.learn}</span>
                   ))}
                 </div>
-            </Bounce>
+
               </div>
             <br />
             <div className="columnStyle">
-            <Bounce right duration={1000} delay={600}>
               <div className="rowStyle">
                 <div className="effects-item">
                   <div className="effects effects-3"></div>
@@ -97,10 +90,9 @@ class Skills extends Component{
                   ))}
                 </div>
               </div>
-            </Bounce>
+
             </div>
             <div className ="columnStyle">
-            <LightSpeed right duration={1000} delay={800}>
               <a href="/resume.pdf" download>
                 <div className="rowStyle" onClick={ this.expandToggle }>
                   <p className="fancy-button bg-gradient1">
@@ -129,7 +121,6 @@ class Skills extends Component{
                  </ParticleEffect>
                 </div>
               </a>
-              </LightSpeed>
             </div>
         </div>
     );

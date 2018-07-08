@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './About.css';
 import './Queries.css';
 
-import Slide from 'react-reveal/Slide';
+import Bounce from 'react-reveal/Bounce';
 
 import TitleComponent from './Title/Title'
 import SkillsComponent from './Skills/Skills'
@@ -13,17 +13,17 @@ class About extends Component{
    render() {
      return (
          <div className="aboutContainer">
-              <Slide left duration={1000}>
+              <Bounce left duration={2000}>
                 <div className="columnStyle">
                   <TitleComponent />
                   <Social />
                 </div>
-              </Slide>
-              <Slide right duration={1000}>
+              </Bounce>
+              <Bounce right duration={2000}>
                 <div>
                     <SkillsComponent />
                 </div>
-              </Slide>
+              </Bounce>
          </div>
      )
    }

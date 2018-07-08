@@ -15,7 +15,7 @@ class App extends Component {
   render() {
     return (
       <div className = "appContainer">
-        <Zoom delay={1000} duration={1000}>
+        <Zoom delay={200} duration={1000}>
           <nav className="nav rowLeftStyle">
             <input type="checkbox" className="nav__cb" id="menu-cb"/>
             <label className="nav__btn" for="menu-cb"></label>
