@@ -4,8 +4,6 @@ import './Effects.css';
 import './Scroll.css'
 
 import Bounce from 'react-reveal/Bounce';
-import Bounce from 'react-reveal/Bounce';
-import Bounce from 'react-reveal/Bounce';
 import LightSpeed from 'react-reveal/LightSpeed';
 
 import ParticleEffect from 'react-particle-effect-button'

@@ -3,7 +3,6 @@ import './Education.css';
 import FaBook from 'react-icons/lib/fa/book';
 import {myEducations} from '../../Constants';
 import Bounce from 'react-reveal/Bounce';
-import Bounce from 'react-reveal/Bounce';
 
 class Education extends Component{
   render() {
