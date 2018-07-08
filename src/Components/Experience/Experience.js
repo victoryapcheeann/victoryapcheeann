@@ -7,7 +7,7 @@ const myExperiences = [
   startDate: '2017', endDate: 'Present',
   techStack: ['Reactjs', 'React Native', 'MERN', 'AWS/Firebase', 'Jest & Jamine', 'Go'],
   description: [
-  'Keeping up to date with latest technology trend',
+  'Keeping myself updated with latest technology trend',
   'Inspiration & Knowledge: Udemy, Codepen, Dribble, Pininterest, Youtube',
   'Researched and prepared over 100 types of different UI Component',
   'Prevent reinvent the wheel, build beautiful frontend efficiently',

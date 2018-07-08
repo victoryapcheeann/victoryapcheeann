@@ -128,8 +128,7 @@ body {
   width: auto;
   margin-top: 20px;
   color: #6C7784;
-  font-size: 14px;
-  font-weight: bold;
+  font-size: 13px;
   -webkit-perspective: 1000px;
           perspective: 1000px;
   transition: color 1s;
