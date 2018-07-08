@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Work.css';
 import './Queries.css';
+import Zoom from 'react-reveal/Zoom';
 
 const myWorksStyle1 = [
   {title: 'Dasher', picture: 'dashboard', description1: 'Show how much you spend!', description2: 'Control your expenses!', link: '', category: ['UX Design', 'Data Visualisation']},
@@ -13,6 +14,7 @@ class work extends Component{
   render() {
     return (
         <div class="workStyle">
+          <Zoom left duration={1000} delay={100}>
                   {myWorksStyle1.map((myWork) => (
                   <div>
                     <div class="grid">
@@ -40,6 +42,7 @@ class work extends Component{
                     </div>
                   </div>
                   ))}
+            </Zoom>
         </div>
     );
   }

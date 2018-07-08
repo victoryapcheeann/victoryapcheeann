@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Social.css';
+import Bounce from 'react-reveal/Bounce';
 
 import FaFacebookSquare from 'react-icons/lib/fa/facebook-square';
 import FaLinkedinSquare from 'react-icons/lib/fa/linkedin-square';
@@ -9,6 +10,7 @@ import FaGooglePlusSquare from 'react-icons/lib/fa/google-plus-square';
 class Contact extends Component{
   render() {
     return (
+      <Bounce left duration={1000} delay={500}>
         <div className="socialContainer">
               <div className="socialIconStyle">
                 <a href="https://www.facebook.com/chee.ann.14">
@@ -25,6 +27,7 @@ class Contact extends Component{
                 </a>
               </div>
         </div>
+      </Bounce>
     );
   }
 }

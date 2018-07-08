@@ -3,28 +3,18 @@ import './Skills.css';
 import './Effects.css';
 import './Scroll.css'
 
+import Slide from 'react-reveal/Slide';
+import Bounce from 'react-reveal/Bounce';
+import LightSpeed from 'react-reveal/LightSpeed';
+import Flip from 'react-reveal/Flip';
+
 import ParticleEffect from 'react-particle-effect-button'
+
 import GoPaintcan from 'react-icons/lib/go/paintcan';
 import MdWeb from 'react-icons/lib/md/web';
 import FaDatabase from 'react-icons/lib/fa/database';
 
-const mySkills = [
-  {skill: 'HTML'}, {skill: 'CSS'}, {skill: 'Javascript'}, {skill: 'ReactJS'},
-  {skill: 'React Native'}, {skill: 'C#'}, {skill: 'SQL'}, {skill: 'MongoDB'}
-];
-
-const myLearns = [
-  {learn: 'Go'}, {learn: 'Jest & Jasmine'}, {learn: 'MERN Stack'},
-  {learn: 'Dart & Flutter'},
-];
-
-const myInterests = [
-  {interest: 'UI/UX Design'}, {interest: 'Web & Mobile Development'}, {interest: 'Backend Development'}
-];
-
-const myInterestsIcon = [
-  GoPaintcan, MdWeb, FaDatabase
-];
+import {mySkills, myLearns, myInterests, myInterestsIcon} from '../../../Constants';
 
 class Skills extends Component{
   constructor(props) {
@@ -58,34 +48,39 @@ class Skills extends Component{
     return (
         <div className="skillsContainer">
             <div className="columnStyle">
+            <Slide right duration={1000} delay={500}>
             <div className="rowStyle">
               <div className="effects-item">
                 <div className="effects effects-1"></div>
               </div>
                 <p className="h2Style">My Skills</p>
               </div>
-              <div className>
+              <div>
                 {mySkills.map((mySkill) => (
                   <span className="skillGradient skillBtnStyle">{mySkill.skill}</span>
                 ))}
               </div>
+            </Slide>
             </div>
             <br />
             <div className="columnStyle">
-            <div className="rowStyle">
-              <div className="effects-item">
-                  <div className="effects effects-2"></div>
+            <Bounce right duration={1000} delay={500}>
+              <div className="rowStyle">
+                <div className="effects-item">
+                    <div className="effects effects-2"></div>
+                  </div>
+                  <p className="h2Style">To Learn List</p>
                 </div>
-                <p className="h2Style">To Learn List</p>
+                <div>
+                  {myLearns.map((myLearn) => (
+                    <span className="learnGradient skillBtnStyle">{myLearn.learn}</span>
+                  ))}
+                </div>
+            </Bounce>
               </div>
-              <div className>
-                {myLearns.map((myLearn) => (
-                  <span className="learnGradient skillBtnStyle">{myLearn.learn}</span>
-                ))}
-              </div>
-            </div>
             <br />
             <div className="columnStyle">
+            <LightSpeed right duration={1000} delay={500}>
               <div className="rowStyle">
                 <div className="effects-item">
                   <div className="effects effects-3"></div>
@@ -104,8 +99,10 @@ class Skills extends Component{
                   ))}
                 </div>
               </div>
+            </LightSpeed>
             </div>
             <div className ="columnStyle">
+            <Flip top duration={1000} delay={500}>
               <a href="/resume.pdf" download>
                 <div className="rowStyle" onClick={ this.expandToggle }>
                   <p className="fancy-button bg-gradient1">
@@ -134,7 +131,7 @@ class Skills extends Component{
                  </ParticleEffect>
                 </div>
               </a>
-
+              </Flip>
             </div>
         </div>
     );
