@@ -2,21 +2,20 @@ import React, { Component } from 'react';
 import './Experience.css';
 import FaLaptop from 'react-icons/lib/fa/laptop';
 import {myExperiences} from '../../Constants';
-import Fade from 'react-reveal/Fade';
 import Bounce from 'react-reveal/Bounce';
 
 class Experience extends Component{
   render() {
     return (
       <div className="experienceContainer">
-      <Fade top delay={100}>
+      <Bounce top delay={100}>
         <div className="columnStyle">
           <p className="h1Style">Experience</p>
           <p className="quotesStyle">
             <span>Choose a job you love and you will never have to work a day in your life.”</span>
           </p>
         </div>
-      </Fade>
+      </Bounce>
       <div className="main">
           <ul className="experience_tmtimeline">
         <Bounce left duration={1000} delay={100}>

@@ -3,10 +3,10 @@ import './Skills.css';
 import './Effects.css';
 import './Scroll.css'
 
-import Slide from 'react-reveal/Slide';
+import Bounce from 'react-reveal/Bounce';
+import Bounce from 'react-reveal/Bounce';
 import Bounce from 'react-reveal/Bounce';
 import LightSpeed from 'react-reveal/LightSpeed';
-import Flip from 'react-reveal/Flip';
 
 import ParticleEffect from 'react-particle-effect-button'
 
@@ -48,7 +48,7 @@ class Skills extends Component{
     return (
         <div className="skillsContainer">
             <div className="columnStyle">
-            <Slide right duration={1000} delay={500}>
+            <Bounce right duration={1000} delay={500}>
             <div className="rowStyle">
               <div className="effects-item">
                 <div className="effects effects-1"></div>
@@ -60,7 +60,7 @@ class Skills extends Component{
                   <span className="skillGradient skillBtnStyle">{mySkill.skill}</span>
                 ))}
               </div>
-            </Slide>
+            </Bounce>
             </div>
             <br />
             <div className="columnStyle">
@@ -80,7 +80,7 @@ class Skills extends Component{
               </div>
             <br />
             <div className="columnStyle">
-            <LightSpeed right duration={1000} delay={500}>
+            <Bounce right duration={1000} delay={500}>
               <div className="rowStyle">
                 <div className="effects-item">
                   <div className="effects effects-3"></div>
@@ -99,10 +99,10 @@ class Skills extends Component{
                   ))}
                 </div>
               </div>
-            </LightSpeed>
+            </Bounce>
             </div>
             <div className ="columnStyle">
-            <Flip top duration={1000} delay={500}>
+            <LightSpeed right duration={1000} delay={500}>
               <a href="/resume.pdf" download>
                 <div className="rowStyle" onClick={ this.expandToggle }>
                   <p className="fancy-button bg-gradient1">
@@ -131,7 +131,7 @@ class Skills extends Component{
                  </ParticleEffect>
                 </div>
               </a>
-              </Flip>
+              </LightSpeed>
             </div>
         </div>
     );

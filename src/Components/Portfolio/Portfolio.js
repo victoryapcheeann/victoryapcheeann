@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './Portfolio.css';
 import WorkComponent from './Work/Work'
-import Fade from 'react-reveal/Fade';
+import Bounce from 'react-reveal/Bounce';
 
 class Portfolio extends Component{
   render() {
     return (
         <div className="portfolioContainer">
-          <Fade top delay={100}>
+          <Bounce top delay={100}>
             <div className="columnStyle">
               <p className="h1Style">Portfolio</p>
               <p className="quotesStyle">
@@ -15,7 +15,7 @@ class Portfolio extends Component{
                 <span>A picture paints a thousand words</span>
               </p>
             </div>
-          </Fade>
+          </Bounce>
           <WorkComponent />
         </div>
     );
