@@ -1,7 +1,7 @@
 /* Survey Section */
 export const surveyQuestions = [
-    {text: 'Cool, this is the end!'},
-    {text: 'So far so good?'},
+    {text: 'Well, who cares?'},
+    {text: 'Just kidding! :p'},
     {text: 'Hope you like it!'}
 ];
 
@@ -11,17 +11,13 @@ export const mySkills = [
   {skill: 'React Native'}, {skill: 'C#'}, {skill: 'SQL'}, {skill: 'MongoDB'}
 ];
 
-export const myLearns = [
-  {learn: 'Go'}, {learn: 'Jest & Jasmine'}, {learn: 'MERN Stack'},
-  {learn: 'Dart & Flutter'},
-];
-
 export const myInterests = [
-  {interest: 'UI/UX Design'}, {interest: 'Web & Mobile Development'}, {interest: 'Backend Development'}
+  {interest: 'Go'}, {interest: 'Jest & Jasmine'}, {interest: 'MERN Stack'},
+  {interest: 'Dart & Flutter'},
 ];
 
-export const myInterestsIcon = [
-  'GoPaintcan', 'MdWeb', 'FaDatabase'
+export const myServices = [
+  {service: 'UI/UX Design'}, {service: 'Web & Mobile Development'}, {service: 'Backend Development'}
 ];
 
 /* Achievement Section */
@@ -68,7 +64,7 @@ export const myExperiences = [
   techStack: ['Reactjs', 'React Native', 'MERN', 'AWS/Firebase', 'Jest & Jamine'],
   description: [
   'Keeping myself updated with latest technology trend',
-  'Inspiration & Knowledge: Udemy, Codepen, Dribble, Pininterest, Youtube',
+  'Inspiration & Knowledge: Udemy, Codepen, Dribble, Pinservice, Youtube',
   'Researched and prepared over 100 types of different UI Component',
   'Prevent reinvent the wheel, build beautiful frontend efficiently',
   'Focusing on web and mobile development at the moment',

@@ -11,7 +11,6 @@ body {
 
 .h1Style {
   font-size: 34px;
-  font-weight: bold;
   margin: 20px 20px 0px 20px;
 }
 
@@ -21,6 +20,7 @@ body {
 
 .textStyle {
   font-size: 15px;
+  word-wrap: break-word;
 }
 
 .quotesStyle {
@@ -37,10 +37,24 @@ body {
   flex-direction: row;
 }
 
+.rowFlexStartStyle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
 .columnStyle {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+
+.columnFlexStartStyle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
   flex-direction: column;
 }
 
