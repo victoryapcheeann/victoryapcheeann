@@ -20,6 +20,14 @@ export const myServices = [
   {service: 'UI/UX Design'}, {service: 'Web & Mobile Development'}, {service: 'Backend Development'}
 ];
 
+/* My works section */
+export const myWorksStyle1 = [
+  {title: 'Dasher', picture: 'dashboard', description1: 'Show how much you spend!', description2: 'Control your expenses!', link: 'https://laughing-perlman-9b9826.netlify.com/', category: ['UX Design', 'Data Visualisation']},
+  {title: 'Pizzy', picture: 'pizza', description1: 'Best pizza in town!', description2: 'Check it out!', link: '', category: ['UX Design', 'HTML', 'CSS']},
+  {title: 'Revents', picture: 'events', description1: 'Feeling bored?', description2: 'Come and join our events now!', link: '', category: ['Reactjs', 'Firebase', 'Redux']},
+  {title: 'Mr Sunny', picture: 'weather', description1: 'Better to be safe than sorry!', description2: 'Check your weather now!', link: '', category: ['UX Design', 'Reactjs']}
+];
+
 /* Achievement Section */
 export const myAchievements = [
   {title: 'Leadership, NUS-ISS Class Representative', startDate: '2016', endDate: '2017',
