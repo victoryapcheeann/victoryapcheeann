@@ -19,7 +19,7 @@ class About extends Component{
                   <Social />
                 </div>
               </Bounce>
-              <Bounce right duration={2000} delay={300}>
+              <Bounce right duration={2000} delay={100}>
                 <div>
                     <SkillsComponent />
                 </div>
