@@ -1,12 +1,14 @@
-@media (max-width: 1000px){
+@media (max-width: 1200px){
   .aboutContainer {
     flex-direction: column;
     height: auto;
+    width: 100vw;
   }
 }
 
 @media (max-width: 700px){
-  .socialContainer, .titleContainer {
-    max-width: 300px;
+  .aboutSubContainer {
+    flex-direction: column;
+    height: auto;
   }
 }

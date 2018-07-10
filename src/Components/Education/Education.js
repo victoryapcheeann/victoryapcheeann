@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Education.css';
+import './Queries.css';
 import FaBook from 'react-icons/lib/fa/book';
 import {myEducations} from '../../Constants';
 import Bounce from 'react-reveal/Bounce';

@@ -3,7 +3,14 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  margin: auto;
+  margin-top: 20px;
   height: 100vh;
   width: 100vw;
+}
+
+.aboutSubContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }

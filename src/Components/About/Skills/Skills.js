@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './Skills.css';
 import './Effects.css';
-import './Scroll.css'
+import './Scroll.css';
+import './Queries.css';
 import ParticleEffect from 'react-particle-effect-button'
 
 import GoPaintcan from 'react-icons/lib/go/paintcan';
@@ -40,69 +41,49 @@ class Skills extends Component{
     const { hidden, animating } = this.state;
 
     return (
+      <div className="mainSkillContainer">
         <div className="skillsContainer columnStyle">
-          <div className="approachAlignmentStyle">
-            <div className="approachContainer columnStyle">
-              <p className="h2Style">About Me</p>
-              <div className="textStyle">
-              I enjoy software engineering because this field is in a constant state of flux.
-              Change brings opportunities, hence I enjoy keeping up with the developments. <br/> <br/>
-              When I am free, I explore new framework, libraries and language
-              to improve myself. Feel free to drop me an email
-              if you have any collaboration opportunities!
-              </div>
-            </div>
-            <div className="approachContainer columnStyle">
-              <p className="h2Style">My Approach</p>
-              <div className="quotesStyle">
-               Discipline is the best tool, <br/>
-               Design first, then code <br/>
-               Don’t patch bugs out, rewrite them out<br/>
-               Don’t test bugs out, design them out.
-              </div>
-            </div>
-          </div>
-          <div className="skillsAlignmentStyle">
-            <div className="skillsDetailContainer columnStyle">
-              <div className="rowStyle iconTitleStyle">
-              <div className="effects-item">
-                <div className="effects effects-1"></div>
-              </div>
-                <p className="h2Style">Skills</p>
-              </div>
-              <div>
+          <div className="columnStyle">
+            <div className="skillsDetailContainer skillsShadowStyle">
+                <div className="rowStyle iconTitleStyle">
+                  <span className="effects-item">
+                      <span className="effects effects-1"></span>
+                  </span>
+                    <span className="h2Style">Skills</span>
+                </div>
+                  <div>
                 {mySkills.map((mySkill) => (
-                  <span className="skillGradient skillBtnStyle">{mySkill.skill}</span>
+                  <span className="skillsGradient skillBtnStyle">{mySkill.skill}</span>
                 ))}
-              </div>
+                </div>
             </div>
             <br />
-            <div className="skillsDetailContainer columnStyle">
-              <div className="rowStyle iconTitleStyle">
-                <div className="effects-item">
-                    <div className="effects effects-2"></div>
+            <div className="skillsDetailContainer interestsShadowStyle">
+                <div className="rowStyle iconTitleStyle">
+                  <span className="effects-item">
+                      <span className="effects effects-2"></span>
+                  </span>
+                    <span className="h2Style">Interests</span>
+                </div>
+                  <div>
+                    {myInterests.map((myInterest) => (
+                      <span className="interestsGradient skillBtnStyle">{myInterest.interest}</span>
+                    ))}
                   </div>
-                  <p className="h2Style">Interests</p>
-                </div>
-              <div>
-                  {myInterests.map((myInterest) => (
-                    <span className="learnGradient skillBtnStyle">{myInterest.interest}</span>
-                  ))}
-                </div>
               </div>
             <br />
-            <div className="skillsDetailContainer columnStyle">
-              <div className="rowStyle iconTitleStyle">
-                <div className="effects-item">
-                    <div className="effects effects-3"></div>
-                  </div>
-                  <p className="h2Style">Services</p>
+            <div className="skillsDetailContainer servicesShadowStyle">
+                <div className="rowStyle iconTitleStyle">
+                  <span className="effects-item">
+                      <span className="effects effects-3"></span>
+                  </span>
+                    <span className="h2Style">Services</span>
                 </div>
-                <div>
+                  <div>
                   {myServices.map((myService) => (
-                    <span className="interestGradient skillBtnStyle">{myService.service}</span>
+                    <span className="servicesGradient skillBtnStyle">{myService.service}</span>
                   ))}
-                </div>
+                  </div>
               </div>
           </div>
             <div className ="columnStyle">
@@ -136,6 +117,7 @@ class Skills extends Component{
               </a>
             </div>
         </div>
+      </div>
     );
   }
 }

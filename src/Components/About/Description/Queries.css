@@ -1,0 +1,14 @@
+@media (max-width: 700px){
+  .aboutSubContainer {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .descriptionContainer {
+    max-width: 300px;
+  }
+
+  .descriptionDetailContainer {
+    max-width: 80%
+  }
+}

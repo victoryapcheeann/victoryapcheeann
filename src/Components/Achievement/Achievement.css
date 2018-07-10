@@ -131,26 +131,7 @@
 	content: "\e004";
 }
 
-@media screen and (max-width: 55em) {
 
-	.achievementContainer > header h1,
-	.achievementContainer > header nav {
-		float: none;
-	}
-
-	.achievementContainer > header > span,
-	.achievementContainer > header h1 {
-		text-align: center;
-	}
-
-	.achievementContainer > header nav {
-		margin: 0 auto;
-	}
-
-	.achievementContainer > header > span {
-		text-indent: 30px;
-	}
-}
 
 .achievement_tmtimeline {
 	margin: 30px 0 0 0;
@@ -286,55 +267,4 @@
 
 .achievement_tmicon-earth:before {
 	content: "\e003";
-}
-
-/* Example Media Queries */
-@media screen and (max-width: 65.375em) {
-
-	.achievement_tmtimeline > li .achievement_tmtime span:last-child {
-		font-size: 1.9em;
-	}
-}
-
-@media screen and (max-width: 47.2em) {
-	.achievement_tmtimeline:before {
-		display: none;
-	}
-
-	.achievement_tmtimeline > li .achievement_tmtime {
-		width: 100%;
-		position: relative;
-		padding: 0 0 20px 0;
-	}
-
-	.achievement_tmtimeline > li .achievement_tmtime span {
-		text-align: left;
-	}
-
-	.achievement_tmtimeline > li .achievement_tmlabel {
-		margin: 0 0 30px 0;
-		padding: 1em;
-		font-weight: 400;
-		font-size: 95%;
-	}
-
-	.achievement_tmtimeline > li .achievement_tmlabel:after {
-		right: auto;
-		left: 20px;
-		border-right-color: transparent;
-		border-bottom-color: #E52B50;
-		top: -20px;
-	}
-
-	.achievement_tmtimeline > li:nth-child(odd) .achievement_tmlabel:after {
-		border-right-color: transparent;
-		border-bottom-color: #E2725B;
-	}
-
-	.achievement_tmtimeline > li .achievement_tmicon {
-		position: relative;
-		float: right;
-		left: auto;
-		margin: -55px 5px 0 0px;
-	}
 }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Experience.css';
+import './Queries.css';
 import FaLaptop from 'react-icons/lib/fa/laptop';
 import {myExperiences} from '../../Constants';
 import Bounce from 'react-reveal/Bounce';

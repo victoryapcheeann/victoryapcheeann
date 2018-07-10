@@ -160,27 +160,6 @@ background-image: linear-gradient(to top, #1E90FF 0%, #00CED1 100%);
 	content: "\e004";
 }
 
-@media screen and (max-width: 55em) {
-
-	.experienceContainer > header h1,
-	.experienceContainer > header nav {
-		float: none;
-	}
-
-	.experienceContainer > header > span,
-	.experienceContainer > header h1 {
-		text-align: center;
-	}
-
-	.experienceContainer > header nav {
-		margin: 0 auto;
-	}
-
-	.experienceContainer > header > span {
-		text-indent: 30px;
-	}
-}
-
 .experience_tmtimeline {
 	margin: 30px 0 0 0;
 	padding: 0;
@@ -301,7 +280,7 @@ background-image: linear-gradient(to top, #1E90FF 0%, #00CED1 100%);
 }
 
 .experience_tmicon-phone:before {
-	content: "\e000";
+	content: "\e000";	
 }
 
 .experience_tmicon-screen:before {
@@ -314,55 +293,4 @@ background-image: linear-gradient(to top, #1E90FF 0%, #00CED1 100%);
 
 .experience_tmicon-earth:before {
 	content: "\e003";
-}
-
-/* Example Media Queries */
-@media screen and (max-width: 65.375em) {
-
-	.experience_tmtimeline > li .experience_tmtime span:last-child {
-		font-size: 1.9em;
-	}
-}
-
-@media screen and (max-width: 47.2em) {
-	.experience_tmtimeline:before {
-		display: none;
-	}
-
-	.experience_tmtimeline > li .experience_tmtime {
-		width: 100%;
-		position: relative;
-		padding: 0 0 20px 0;
-	}
-
-	.experience_tmtimeline > li .experience_tmtime span {
-		text-align: left;
-	}
-
-	.experience_tmtimeline > li .experience_tmlabel {
-		margin: 0 0 30px 0;
-		padding: 1em;
-		font-weight: 400;
-		font-size: 95%;
-	}
-
-	.experience_tmtimeline > li .experience_tmlabel:after {
-		right: auto;
-		left: 20px;
-		border-right-color: transparent;
-		border-bottom-color: #3594cb;
-		top: -20px;
-	}
-
-	.experience_tmtimeline > li:nth-child(odd) .experience_tmlabel:after {
-		border-right-color: transparent;
-		border-bottom-color: #6cbfee;
-	}
-
-	.experience_tmtimeline > li .experience_tmicon {
-		position: relative;
-		float: right;
-		left: auto;
-		margin: -55px 5px 0 0px;
-	}
 }

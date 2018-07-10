@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Achievement.css';
+import './Queries.css';
 import FaTrophy from 'react-icons/lib/fa/trophy';
 import {myAchievements} from '../../Constants';
 import Bounce from 'react-reveal/Bounce';

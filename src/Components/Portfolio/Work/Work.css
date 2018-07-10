@@ -136,12 +136,11 @@ figure.effect-julia p {
 	display: inline-block;
 	margin: 0 0 0.25em;
 	padding: 0.4em 1em;
-	background: #CCCCFF;
-	color: #2f3238;
+	background: linear-gradient(to top, #f1e058 0%, transparent 50%);
+	color: white;
 	text-transform: none;
 	font-weight: 500;
 	font-size: 75%;
-  border-radius: 50px;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: translate3d(-360px,0,0);
@@ -151,6 +150,7 @@ figure.effect-julia p {
 figure.effect-julia p:nth-of-type(3), figure.effect-julia p:nth-of-type(4)  {
   padding: none;
   margin: none;
+  border-radius: 50px;
   background: transparent;
   margin: 0 0 0.25em -25px;
 }

@@ -1,0 +1,70 @@
+@media screen and (max-width: 55em) {
+
+	.educationContainer > header h1,
+	.educationContainer > header nav {
+		float: none;
+	}
+
+	.educationContainer > header > span,
+	.educationContainer > header h1 {
+		text-align: center;
+	}
+
+	.educationContainer > header nav {
+		margin: 0 auto;
+	}
+
+	.educationContainer > header > span {
+		text-indent: 30px;
+	}
+}
+
+@media screen and (max-width: 65.375em) {
+
+	.education_tmtimeline > li .education_tmtime span:last-child {
+		font-size: 1.9em;
+	}
+}
+
+@media screen and (max-width: 47.2em) {
+	.education_tmtimeline:before {
+		display: none;
+	}
+
+	.education_tmtimeline > li .education_tmtime {
+		width: 100%;
+		position: relative;
+		padding: 0 0 20px 0;
+	}
+
+	.education_tmtimeline > li .education_tmtime span {
+		text-align: left;
+	}
+
+	.education_tmtimeline > li .education_tmlabel {
+		margin: 0 0 30px 0;
+		padding: 1em;
+		font-weight: 400;
+		font-size: 95%;
+	}
+
+	.education_tmtimeline > li .education_tmlabel:after {
+		right: auto;
+		left: 20px;
+		border-right-color: transparent;
+		border-bottom-color: #3EB489;
+		top: -20px;
+	}
+
+	.education_tmtimeline > li:nth-child(odd) .education_tmlabel:after {
+		border-right-color: transparent;
+		border-bottom-color: #9ACD32;
+	}
+
+	.education_tmtimeline > li .education_tmicon {
+		position: relative;
+		float: right;
+		left: auto;
+		margin: -55px 5px 0 0px;
+	}
+}

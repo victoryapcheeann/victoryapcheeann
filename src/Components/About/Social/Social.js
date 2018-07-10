@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './Social.css';
+import './Queries.css';
+
 import Bounce from 'react-reveal/Bounce';
 
 import FaFacebookSquare from 'react-icons/lib/fa/facebook-square';

@@ -294,9 +294,9 @@ background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%
 
 .fancy-button {
   display: inline-block;
-  margin: 15px;
+  margin: 40px 10px 10px 10px;
   font-family: 'Montserrat';
-  font-size: 17px;
+  font-size: 12px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
@@ -328,7 +328,7 @@ background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%
 }
 .fancy-button span {
   display: inline-block;
-  padding: 18px 60px;
+  padding: 18px 30px;
   border-radius: 50em;
   position: relative;
   z-index: 2;

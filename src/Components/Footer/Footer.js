@@ -33,9 +33,10 @@ class Footer extends Component{
         </Tada>
         <Jump duration={2000} delay={2000} forever>
           <div className="footerDescription">
-            <p>If you have any colloboration opportunities, hit me up!</p>
-            <p>Just drop me an email @</p>
+            <p>Interested in working together?</p>
+            <p>Drop me an email</p>
             <p>victoryapcheeann@gmail.com</p>
+            <br />
           </div>
         </Jump>
         <p>© Victor Yap 2018 / No rights reserved</p>

@@ -7,17 +7,18 @@ export const surveyQuestions = [
 
 /* Skills Section */
 export const mySkills = [
-  {skill: 'HTML'}, {skill: 'CSS'}, {skill: 'Javascript'}, {skill: 'ReactJS'},
-  {skill: 'React Native'}, {skill: 'C#'}, {skill: 'SQL'}, {skill: 'MongoDB'}
+  {skill: 'HTML'}, {skill: 'CSS'}, {skill: 'ReactJS'}, {skill: 'React Native'},
+  {skill: 'C#'}, {skill: 'SQL'}
 ];
 
 export const myInterests = [
   {interest: 'Go'}, {interest: 'Jest & Jasmine'}, {interest: 'MERN Stack'},
-  {interest: 'Dart & Flutter'},
+  {interest: 'Dart & Flutter'}, {interest: 'MongoDB'}
 ];
 
 export const myServices = [
-  {service: 'UI/UX Design'}, {service: 'Web & Mobile Development'}, {service: 'Backend Development'}
+  {service: 'UI/UX Design'}, {service: 'Backend Development'},
+  {service: 'Web & Mobile Development'}
 ];
 
 /* My works section */
