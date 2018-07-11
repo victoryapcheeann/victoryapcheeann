@@ -4,11 +4,19 @@
     height: auto;
     width: 100vw;
   }
+
+  .aboutSubContainer {
+    margin-bottom: 50px;
+  }
 }
 
 @media (max-width: 700px){
   .aboutSubContainer {
     flex-direction: column;
     height: auto;
+  }
+
+  .socialContainer {
+    margin-bottom: 50px;
   }
 }

@@ -1,8 +1,8 @@
 .socialContainer {
   display: flex;
-  width: 350px;
-  margin: 00px 30px 30px 30px;
-  padding: 10px;
+  width: 280px;
+  margin: 20px;
+  padding: 5px;
   position: relative;
   align-content: center;
   justify-content: center;

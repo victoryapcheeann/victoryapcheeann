@@ -6,9 +6,6 @@
 
   .descriptionContainer {
     max-width: 300px;
-  }
-
-  .descriptionDetailContainer {
-    max-width: 80%
+    margin: 0;
   }
 }

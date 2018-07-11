@@ -11,14 +11,14 @@ export const mySkills = [
   {skill: 'C#'}, {skill: 'SQL'}
 ];
 
-export const myInterests = [
-  {interest: 'Go'}, {interest: 'Jest & Jasmine'}, {interest: 'MERN Stack'},
-  {interest: 'Dart & Flutter'}, {interest: 'MongoDB'}
+export const myLearns = [
+  {learn: 'Go'}, {learn: 'Jest & Jasmine'}, {learn: 'MERN Stack'},
+  {learn: 'Dart & Flutter'}, {learn: 'MongoDB'}
 ];
 
-export const myServices = [
-  {service: 'UI/UX Design'}, {service: 'Backend Development'},
-  {service: 'Web & Mobile Development'}
+export const myInterests = [
+  {interest: 'UI/UX Design'}, {interest: 'Backend Development'},
+  {interest: 'Web & Mobile Development'}
 ];
 
 /* My works section */
@@ -73,7 +73,7 @@ export const myExperiences = [
   techStack: ['Reactjs', 'React Native', 'MERN', 'AWS/Firebase', 'Jest & Jamine'],
   description: [
   'Keeping myself updated with latest technology trend',
-  'Inspiration & Knowledge: Udemy, Codepen, Dribble, Pinservice, Youtube',
+  'Inspiration & Knowledge: Udemy, Codepen, Dribble, Pininterest, Youtube',
   'Researched and prepared over 100 types of different UI Component',
   'Prevent reinvent the wheel, build beautiful frontend efficiently',
   'Focusing on web and mobile development at the moment',

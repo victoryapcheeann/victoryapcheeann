@@ -9,7 +9,7 @@ import GoPaintcan from 'react-icons/lib/go/paintcan';
 import MdWeb from 'react-icons/lib/md/web';
 import FaDatabase from 'react-icons/lib/fa/database';
 
-import {mySkills, myInterests, myServices} from '../../../Constants';
+import {mySkills, myLearns, myInterests} from '../../../Constants';
 
 class Skills extends Component{
   constructor(props) {
@@ -58,30 +58,30 @@ class Skills extends Component{
                 </div>
             </div>
             <br />
-            <div className="skillsDetailContainer interestsShadowStyle">
+            <div className="skillsDetailContainer learnsShadowStyle">
                 <div className="rowStyle iconTitleStyle">
                   <span className="effects-item">
                       <span className="effects effects-2"></span>
                   </span>
-                    <span className="h2Style">Interests</span>
+                    <span className="h2Style">Learns</span>
                 </div>
                   <div>
-                    {myInterests.map((myInterest) => (
-                      <span className="interestsGradient skillBtnStyle">{myInterest.interest}</span>
+                    {myLearns.map((myLearn) => (
+                      <span className="learnsGradient skillBtnStyle">{myLearn.learn}</span>
                     ))}
                   </div>
               </div>
             <br />
-            <div className="skillsDetailContainer servicesShadowStyle">
+            <div className="skillsDetailContainer interestsShadowStyle">
                 <div className="rowStyle iconTitleStyle">
                   <span className="effects-item">
                       <span className="effects effects-3"></span>
                   </span>
-                    <span className="h2Style">Services</span>
+                    <span className="h2Style">Interests</span>
                 </div>
                   <div>
-                  {myServices.map((myService) => (
-                    <span className="servicesGradient skillBtnStyle">{myService.service}</span>
+                  {myInterests.map((myInterest) => (
+                    <span className="interestsGradient skillBtnStyle">{myInterest.interest}</span>
                   ))}
                   </div>
               </div>

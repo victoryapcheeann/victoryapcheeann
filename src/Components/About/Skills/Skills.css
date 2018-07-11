@@ -1,21 +1,19 @@
 .skillsContainer {
   position: relative;
-  min-width: 50%;
-  margin-left: 20px;
-  margin-bottom: 30px;
-  padding: 10px;
+  margin-left: 50px;
+  padding: 5px;
   background-color: rgba(255, 255, 255,  0.6);
-  box-shadow: 0 4px  4px  rgba(157, 204, 250, .1),
-            0 1px  6px  rgba(157, 204, 250, .05),
-            0 8px  8px  rgba(157, 204, 250, .1),
-            0 16px 16px rgba(157, 204, 250, .1),
-            8px 32px 32px rgba(157, 204, 250, .15),
-            8px 64px 64px rgba(157, 204, 250,.15);
+  box-shadow: 0 4px  4px  rgba(41,128,185, .1),
+            0 1px  6px  rgba(41,128,185, .05),
+            0 8px  8px  rgba(41,128,185, .1),
+            0 16px 16px rgba(41,128,185, .1),
+            8px 32px 32px rgba(41,128,185, .15),
+            8px 64px 64px rgba(41,128,185, .15);
 }
 
 .skillsDetailContainer {
   width: 400px;
-  margin: 15px;
+  margin: 5px;
   padding: 10px;
   display: flex;
   align-items: center;
@@ -32,7 +30,7 @@
             8px 64px 64px rgba(255, 102, 102,.05);
 }
 
-.interestsShadowStyle {
+.learnsShadowStyle {
   box-shadow: 0 4px  4px  rgba(223, 128, 255, .1),
             0 1px  6px  rgba(223, 128, 255, .05),
             0 8px  8px  rgba(223, 128, 255, .1),
@@ -41,7 +39,7 @@
             8px 64px 64px rgba(223, 128, 255,.05);
 }
 
-.servicesShadowStyle {
+.interestsShadowStyle {
   box-shadow: 0 4px  4px  rgba(0, 153, 153, .1),
             0 1px  6px  rgba(0, 153, 153, .05),
             0 8px  8px  rgba(0, 153, 153, .1),
@@ -58,7 +56,7 @@
   border-radius: 50px;
   margin: 5px;
   padding: 10px;
-  font-size: 14px;
+  font-size: 11px;
 }
 
 .iconMarginStyle {
@@ -69,10 +67,10 @@
 background-image: linear-gradient(-225deg, #A445B2 0%, #D41872 52%, #FF0066 100%);
 }
 
-.interestsGradient {
+.learnsGradient {
 background-image: linear-gradient(-225deg, #65379B 0%, #886AEA 53%, #6457C6 100%);
 }
 
-.servicesGradient {
+.interestsGradient {
 background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
 }

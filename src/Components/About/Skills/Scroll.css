@@ -1,9 +1,9 @@
 .scrolldown-container {
   width: 25px;
-  height: 35px;
+  height: 75px;
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: center;
 }
 
 .first-path, .second-path {
@@ -12,15 +12,12 @@
   stroke-width: 5px;
 }
 
-.scrolldown-container .scrolldown-btn {
-  margin: auto;
+.scrolldown-btn {
   width: 25px;
   height: 50px;
   position: relative;
   left: 50%;
-  top: 25%;
-  bottom: auto;
-  right: auto;
+  top: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
   -ms-transform: translateX(-50%) translateY(-50%);
