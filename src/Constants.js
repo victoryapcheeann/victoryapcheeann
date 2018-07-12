@@ -23,10 +23,10 @@ export const myInterests = [
 
 /* My works section */
 export const myWorksStyle1 = [
-  {title: 'Dasher', picture: 'dashboard', description1: 'Show how much you spend!', description2: 'Control your expenses!', link: 'https://laughing-perlman-9b9826.netlify.com/', category: ['UX Design', 'Data Visualisation']},
-  {title: 'Pizzy', picture: 'pizza', description1: 'Best pizza in town!', description2: 'Check it out!', link: '', category: ['UX Design', 'HTML', 'CSS']},
+  {title: 'Dasher', picture: 'chart', description1: 'Show how much you spend!', description2: 'Control your expenses!', link: '', category: ['UX Design', 'Data Visualisation']},
+  {title: 'Components', picture: 'design', description1: 'Showcase different UI design', description2: 'Take a look!', link: '', category: ['UX Design', 'HTML', 'CSS']},
   {title: 'Revents', picture: 'events', description1: 'Feeling bored?', description2: 'Come and join our events now!', link: '', category: ['Reactjs', 'Firebase', 'Redux']},
-  {title: 'Mr Sunny', picture: 'weather', description1: 'Better to be safe than sorry!', description2: 'Check your weather now!', link: '', category: ['UX Design', 'Reactjs']}
+  {title: 'Mr Sunny', picture: 'weather', description1: 'Oh no, is it raining?', description2: 'Check your weather now!', link: '', category: ['UX Design', 'Reactjs']}
 ];
 
 /* Achievement Section */
