@@ -74,7 +74,7 @@ export const myExperiences = [
   description: [
   'Keeping myself updated with latest technology trend',
   'Inspiration & Knowledge: Udemy, Codepen, Dribble, Pininterest, Youtube',
-  'Researched and prepared over 100 types of different UI Component',
+  'Researched and prepared over 100 types of UI Component',
   'Prevent reinvent the wheel, build beautiful frontend efficiently',
   'Focusing on web and mobile development at the moment',
   'Open to opportunities such as AI, Data Science, Blockchain'
