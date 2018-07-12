@@ -39,12 +39,12 @@ text-decoration: none;
 	background: #3085a3;
 	text-align: center;
   margin: 10px;
-  box-shadow: 0 4px  4px  rgba(157, 204, 250, .1),
-            0 1px  6px  rgba(157, 204, 250, .05),
-            0 8px  8px  rgba(157, 204, 250, .1),
-            0 16px 16px rgba(157, 204, 250, .1),
-            8px 32px 32px rgba(157, 204, 250, .1),
-            8px 64px 64px rgba(157, 204, 250,.1);
+  box-shadow: 0 4px  4px  rgba(000, 000, 000, .1),
+            0 1px  6px  rgba(000, 000, 000, .1),
+            0 8px  8px  rgba(000, 000, 000, .1),
+            0 16px 16px rgba(000, 000, 000, .1),
+            8px 32px 32px rgba(000, 000, 000, .3),
+            8px 64px 64px rgba(000, 000, 000,.3);
 }
 
 .grid figure img {
