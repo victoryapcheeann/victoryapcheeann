@@ -11,7 +11,7 @@ class Experience extends Component{
       <div className="experienceContainer">
       <Bounce top delay={100}>
         <div className="columnStyle">
-          <p className="h1Style">Experience</p>
+          <p className="h1Style side-lines--double">Experience</p>
           <p className="quotesStyle">
             <span>Choose a job you love and you will never have to work a day in your life.”</span>
           </p>

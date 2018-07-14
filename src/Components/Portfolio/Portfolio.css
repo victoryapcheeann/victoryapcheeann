@@ -7,3 +7,35 @@
   width: 100%;
   margin-bottom: 100px;
 }
+
+.side-lines--single {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  text-align: center;
+}
+
+.side-lines--single:before {
+  margin-right: 1rem;
+}
+
+.side-lines--single:after {
+  margin-left: 1rem;
+}
+
+.side-lines--single:before, .side-lines--single:after {
+  content: '';
+  flex: 1;
+  width: 100%;
+  height: 5px;
+  background-image: linear-gradient(120deg, #30cfd0 0%, #330867 50%);
+  animation: gradientPortfolio 10s ease infinite;
+  background-size: 300%;
+}
+
+@keyframes gradientPortfolio {
+    0%{background-position:0% 50%}
+    50%{background-position:300% 300%}
+    100%{background-position:0% 50%}
+}

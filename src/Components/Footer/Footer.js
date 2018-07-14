@@ -39,7 +39,7 @@ class Footer extends Component{
             <br />
           </div>
         </Jump>
-        <p>© Victor Yap 2018 / No rights reserved</p>
+        <p className="side-lines--snake">© Victor Yap 2018 / No rights reserved</p>
       </div>
     );
   }

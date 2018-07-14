@@ -11,7 +11,7 @@ class Achievement extends Component{
       <div className="achievementContainer">
       <Bounce top delay={100}>
         <div className="columnStyle">
-          <p className="h1Style">Achievement</p>
+          <p className="h1Style side-lines--checkered">Achievement</p>
           <p className="quotesStyle">
             <span>A dream becomes a goal when action is taken toward its achievement.</span>
           </p>

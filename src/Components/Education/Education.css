@@ -281,3 +281,34 @@
 .education_tmicon-earth:before {
 	content: "\e003";
 }
+
+.side-lines--striped {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  text-align: center;
+}
+.side-lines--striped:before, .side-lines--striped:after {
+  content: '';
+  flex: 1;
+  width: 100%;
+  height: 6px;
+  height: 12px;
+  background: repeating-linear-gradient(45deg, #43e97b, #38f9d7 6px, transparent 6px, transparent 12px);
+	animation: gradientPortfolio 20s ease infinite;
+	background-size: 200%;
+}
+
+@keyframes gradientPortfolio {
+	0%{background-position:0% 50%}
+	50%{background-position:150% 150%}
+	100%{background-position:0% 50%}
+}
+
+.side-lines--striped:before {
+  margin-right: 1rem;
+}
+.side-lines--striped:after {
+  margin-left: 1rem;
+}

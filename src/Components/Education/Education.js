@@ -11,7 +11,7 @@ class Education extends Component{
       <div className="educationContainer">
       <Bounce top delay={100}>
         <div className="columnStyle">
-          <p className="h1Style">Education</p>
+          <p className="h1Style side-lines--striped">Education</p>
           <p className="quotesStyle">
             <span>Pen is mightier than the sword</span>
           </p>
