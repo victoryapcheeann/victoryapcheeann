@@ -1,3 +1,19 @@
+@media (min-width: 1200px){
+  .titleSocialStyle {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 700px){
+  .titleSocialStyle {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+}
+
 @media (max-width: 1200px){
   .aboutContainer {
     flex-direction: column;
@@ -7,6 +23,10 @@
 
   .aboutSubContainer {
     margin-bottom: 50px;
+  }
+
+  .titleSocialStyle {
+    margin-top: 50px;
   }
 }
 

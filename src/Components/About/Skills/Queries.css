@@ -1,3 +1,15 @@
+@media (min-width:1200px){
+  .skillsContainer {
+    height:80vh;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 60vw;
+    margin-bottom: 80px;
+  }
+}
+
 @media (max-width: 1200px){
   .aboutContainer {
     flex-direction: column;
@@ -7,7 +19,6 @@
 
   .skillsContainer {
     max-width: 60vw;
-    margin-bottom: 50px;
   }
 
   .skillsDetailContainer {

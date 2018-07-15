@@ -41,7 +41,7 @@ class Skills extends Component{
     const { hidden, animating } = this.state;
 
     return (
-      <div className="mainSkillContainer">
+      <div>
         <div className="skillsContainer columnStyle">
           <div className="columnStyle">
             <div className="skillsDetailContainer skillsShadowStyle">

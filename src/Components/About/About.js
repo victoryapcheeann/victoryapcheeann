@@ -16,7 +16,7 @@ class About extends Component{
          <div className="aboutContainer">
             <div className="aboutSubContainer">
               <Bounce left duration={2000} delay={100}>
-                <div className="columnStyle">
+                <div className="titleSocialStyle">
                   <TitleComponent />
                   <Social />
                 </div>
