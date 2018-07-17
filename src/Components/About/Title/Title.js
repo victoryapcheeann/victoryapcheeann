@@ -17,7 +17,7 @@ class Title extends Component{
                 <p className="h2Style nameStyle">Hello !<br/> I am Victor Yap</p>
                 <p className="textStyle jobTitle columnStyle">
                   <span>Software Engineer</span> <br />
-                  <span>UI Design</span>
+                  <span>UI Designer</span>
                 </p>
               </div>
             </div>
