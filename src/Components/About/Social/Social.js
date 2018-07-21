@@ -16,7 +16,7 @@ class Contact extends Component{
                 <a href="https://www.linkedin.com/in/victor-yap-49b713b9/">
                   <FaLinkedinSquare size={40} color="DodgerBlue"/>
                 </a>
-                <a href="https://github.com/vyca2017">
+                <a href="https://github.com/victoryapcheeann">
                   <FaGithubSquare size={40} color="LightSlateGrey"/>
                 </a>
                 <a href="https://www.pinterest.com/cheeann14/pins/">
