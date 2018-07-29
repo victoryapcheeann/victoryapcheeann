@@ -7,13 +7,13 @@ export const surveyQuestions = [
 
 /* Skills Section */
 export const mySkills = [
-  {skill: 'HTML'}, {skill: 'CSS'}, {skill: 'ReactJS'}, {skill: 'React Native'},
-  {skill: 'C#'}, {skill: 'SQL'}
+  {skill: 'HTML'}, {skill: 'CSS'}, {skill: 'ReactJS'}, {skill: 'Redux'},
+  {skill: 'React Native'}, {skill: 'Jest'}, {skill: 'C#'}, {skill: 'SQL'}
 ];
 
 export const myLearns = [
-  {learn: 'Go'}, {learn: 'Jest & Jasmine'}, {learn: 'MERN Stack'},
-  {learn: 'Dart & Flutter'}, {learn: 'MongoDB'}
+  {learn: 'Go'}, {learn: 'MERN Stack'}, {learn: 'Data Science'},
+  {learn: 'Dart & Flutter'}, {learn: 'Machine Learning'}
 ];
 
 export const myInterests = [
