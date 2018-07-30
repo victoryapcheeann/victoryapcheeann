@@ -70,7 +70,7 @@ export const myEducations = [
 export const myExperiences = [
   {company: 'www.victoryap.com', companyLogo: 'victoryap', position: 'Self-taught developer',
   startDate: '2017', endDate: 'Present',
-  techStack: ['Reactjs', 'React Native', 'MERN', 'AWS/Firebase', 'Jest & Jamine'],
+  techStack: ['Reactjs', 'React Native', 'Jest', 'Redux', 'Node.js'],
   description: [
   'Keeping myself updated with latest technology trend',
   'Inspiration & Knowledge: Udemy, Codepen, Dribble, Pininterest, Youtube',
