@@ -26,7 +26,7 @@ class Title extends Component{
                     <p>I turn complex idea into
                     <p className ="rw-words rw-words-1 rowStyle">
                         <span>elegant products</span>
-                        <span>  beautiful interfaces</span>
+                        <span>beautiful interfaces</span>
                         <span>simple concepts</span>
                     </p>
                     </p>

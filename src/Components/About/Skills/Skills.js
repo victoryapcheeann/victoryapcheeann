@@ -9,7 +9,7 @@ import GoPaintcan from 'react-icons/lib/go/paintcan';
 import MdWeb from 'react-icons/lib/md/web';
 import FaDatabase from 'react-icons/lib/fa/database';
 
-import {mySkills, myLearns, myInterests} from '../../../Constants';
+import {mySkills, myInterests, myServices} from '../../../Constants';
 
 class Skills extends Component{
   constructor(props) {
@@ -63,11 +63,11 @@ class Skills extends Component{
                   <span className="effects-item">
                       <span className="effects effects-2"></span>
                   </span>
-                    <span className="h2Style">Learns</span>
+                    <span className="h2Style">Interests</span>
                 </div>
                   <div>
-                    {myLearns.map((myLearn) => (
-                      <span className="learnsGradient skillBtnStyle">{myLearn.learn}</span>
+                    {myInterests.map((myInterest) => (
+                      <span className="learnsGradient skillBtnStyle">{myInterest.interest}</span>
                     ))}
                   </div>
               </div>
@@ -77,11 +77,11 @@ class Skills extends Component{
                   <span className="effects-item">
                       <span className="effects effects-3"></span>
                   </span>
-                    <span className="h2Style">Interests</span>
+                    <span className="h2Style">Services</span>
                 </div>
                   <div>
-                  {myInterests.map((myInterest) => (
-                    <span className="interestsGradient skillBtnStyle">{myInterest.interest}</span>
+                  {myServices.map((myService) => (
+                    <span className="interestsGradient skillBtnStyle">{myService.service}</span>
                   ))}
                   </div>
               </div>
