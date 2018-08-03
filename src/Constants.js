@@ -28,7 +28,7 @@ export const myWorksStyle1 = [
   {title: 'Dasher', picture: 'chart', description1: 'Show how much you spend!', description2: 'Control your expenses!', link: 'https://victoryap-dasher.netlify.com/', category: ['UX Design', 'Data Visualisation']},
   {title: 'Component100', picture: 'design', description1: 'Best UI design online', description2: 'All in one place! Take a look!', link: 'https://victoryap-component100.netlify.com/', category: ['UX Design', 'HTML', 'CSS']},
   {title: 'Revents', picture: 'events', description1: 'Feeling bored?', description2: 'Come and join our events now!', link: '', category: ['Reactjs', 'Firebase', 'Redux']},
-  {title: 'Mr Sunny', picture: 'weather', description1: 'Oh no, is it raining?', description2: 'Check your weather now!', link: '', category: ['UX Design', 'Reactjs']}
+  {title: 'Reddit(Mini)', picture: 'forum', description1: 'Create a topic!', description2: 'Upvote & Downvote!', link: 'https://redditexercise-victoryap.netlify.com/', category: ['Reactjs', 'Redux', 'Jest']}
 ];
 
 /* Achievement Section */
