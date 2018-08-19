@@ -8,9 +8,8 @@ export const surveyQuestions = [
 /* Skills Section */
 export const mySkills = [
   {skill: 'HTML'}, {skill: 'CSS'}, {skill: 'ReactJS'}, {skill: 'Redux'},
-  {skill: 'Nodejs'}, {skill: 'Jest'}, {skill: 'C#'}, {skill: 'SQL'},
-  {skill: 'React Native'}, {skill: 'MongoDB'}
-  
+  {skill: 'Vuejs'}, {skill: 'Vuex'}, {skill: 'Nodejs'}, {skill: 'Jest'}, 
+  {skill: 'C#'}, {skill: 'SQL'}, {skill: 'React Native'}, {skill: 'MongoDB'}
 ];
 
 export const myInterests = [
@@ -28,7 +27,8 @@ export const myWorksStyle1 = [
   {title: 'Dasher', picture: 'chart', description1: 'Show how much you spend!', description2: 'Control your expenses!', link: 'https://victoryap-dasher.netlify.com/', category: ['UX Design', 'Data Visualisation']},
   {title: 'Component100', picture: 'design', description1: 'Best UI design online', description2: 'All in one place! Take a look!', link: 'https://victoryap-component100.netlify.com/', category: ['UX Design', 'HTML', 'CSS']},
   {title: 'Revents', picture: 'events', description1: 'Feeling bored?', description2: 'Come and join our events now!', link: '', category: ['Reactjs', 'Firebase', 'Redux']},
-  {title: 'Reddit(Mini)', picture: 'forum', description1: 'Create a topic!', description2: 'Upvote & Downvote!', link: 'https://redditexercise-victoryap.netlify.com/', category: ['Reactjs', 'Redux', 'Jest']}
+  {title: 'VueEx', picture: 'expense', description1: 'Add your expense!', description2: 'See how much you spend overtime!', link: 'https://vueexpense-victoryap.netlify.com/', category: ['Vuejs', 'Vuex']},
+  {title: 'Reddit(Mini)', picture: 'forum', description1: 'Create a topic!', description2: 'Upvote & Downvote!', link: 'https://redditexercise-victoryap.netlify.com/', category: ['Reactjs', 'Redux', 'Jest']} 
 ];
 
 /* Achievement Section */
