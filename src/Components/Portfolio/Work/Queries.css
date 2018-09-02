@@ -6,12 +6,7 @@
 
 @media (max-width: 700px){
   .grid figure {
-  	position: relative;
-  	overflow: hidden;
   	max-width: 350px;
-  	max-height: auto;
-  	background: #3085a3;
-  	text-align: center;
   }
 
   .grid figure img {
