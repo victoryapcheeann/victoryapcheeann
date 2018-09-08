@@ -7,9 +7,8 @@ export const surveyQuestions = [
 
 /* Skills Section */
 export const mySkills = [
-  {skill: 'HTML'}, {skill: 'CSS'}, {skill: 'ReactJS'}, {skill: 'Redux'},
-  {skill: 'Vuejs'}, {skill: 'Vuex'}, {skill: 'Nodejs'}, {skill: 'Jest'}, 
-  {skill: 'C#'}, {skill: 'SQL'}, {skill: 'React Native'}, {skill: 'MongoDB'}
+  {skill: 'HTML'}, {skill: 'CSS'}, {skill: 'ReactJS'}, {skill: 'Angular'},
+  {skill: 'VueJS'}, {skill: 'SQL'}, 
 ];
 
 export const myInterests = [
@@ -79,9 +78,7 @@ export const myExperiences = [
   'Keeping myself updated with latest technology trend',
   'Inspiration & Knowledge: Udemy, Codepen, Dribble, Pinservice, Youtube',
   'Researched and prepared over 100 types of UI Component',
-  'Prevent reinvent the wheel, build beautiful frontend efficiently',
-  'Focusing on web and mobile development at the moment',
-  'Open to opportunities such as AI, Data Science, Blockchain'
+  'Prevent reinvent the wheel, build beautiful frontend efficiently'
   ]},
   {company: 'NCS Group', companyLogo: 'ncs', position: 'Application Consultant',
   startDate: 'Apr 2017', endDate: 'Present',
