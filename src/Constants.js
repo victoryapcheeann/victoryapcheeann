@@ -71,6 +71,13 @@ export const myEducations = [
 
 /* Experiences Section */
 export const myExperiences = [
+  {company: 'Siemens', companyLogo: 'siemens', position: 'Web Developer',
+  startDate: 'Oct 2018', endDate: 'Present',
+  techStack: ['ReactJS', 'AngularJS'],
+  description: [
+  'Web Developer',
+  'Develop web applications'
+  ]},
   {company: 'www.victoryap.com', companyLogo: 'victoryap', position: 'Self-taught developer',
   startDate: '2017', endDate: 'Present',
   techStack: ['Reactjs', 'React Native', 'Jest', 'Redux', 'Node.js'],
@@ -81,7 +88,7 @@ export const myExperiences = [
   'Prevent reinvent the wheel, build beautiful frontend efficiently'
   ]},
   {company: 'NCS Group', companyLogo: 'ncs', position: 'Application Consultant',
-  startDate: 'Apr 2017', endDate: 'Present',
+  startDate: 'Apr 2017', endDate: 'Oct 2018',
   techStack: ['SQL', 'C#', '.NET Framework'],
   description: [
   'Analyse process specification to program codes, conforming to program guidelines',
