@@ -12,7 +12,6 @@
   display: inline-block;
   width: 85vw;
   margin: 0 auto;
-  background-color: red;
 }
 
 @media(min-width: 1600px) {
