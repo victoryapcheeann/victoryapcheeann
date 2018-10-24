@@ -16,7 +16,11 @@ class Portfolio extends Component{
               </p>
             </div>
           </Bounce>
-          <WorkComponent />
+          <div className="workContainer">
+            <div className = "workSubContainer">
+              <WorkComponent />
+            </div>
+          </div>
         </div>
     );
   }

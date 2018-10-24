@@ -27,9 +27,7 @@ export const myWorksStyle1 = [
   {title: 'Fifa', picture: 'fifa', description1: 'Make your own dream team!', description2: 'Win the world cup!', link: 'https://fifa-victoryap.netlify.com/', category: ['UX Design', 'React', 'Redux']},
   {title: 'Component-100', picture: 'design', description1: 'Best UI design online', description2: 'All in one place! Take a look!', link: 'https://victoryap-component100.netlify.com/', category: ['UX Design', 'HTML', 'CSS']},
   {title: 'Dasher', picture: 'chart', description1: 'Show how much you spend!', description2: 'Control your expenses!', link: 'https://victoryap-dasher.netlify.com/', category: ['UX Design', 'Data Visualisation']},
-  {title: 'Revents', picture: 'events', description1: 'Feeling bored?', description2: 'Come and join our events now!', link: '', category: ['Reactjs', 'Firebase', 'Redux']},
-  {title: 'VueEx', picture: 'expense', description1: 'Add your expense!', description2: 'See how much you spend overtime!', link: 'https://vueexpense-victoryap.netlify.com/', category: ['Vuejs', 'Vuex']},
-  {title: 'Reddit(Mini)', picture: 'forum', description1: 'Create a topic!', description2: 'Upvote & Downvote!', link: 'https://redditexercise-victoryap.netlify.com/', category: ['Reactjs', 'Redux', 'Jest']} 
+  {title: 'Revents', picture: 'events', description1: 'Feeling bored?', description2: 'Come and join our events now!', link: '', category: ['Reactjs', 'Firebase', 'Redux']}
 ];
 
 /* Achievement Section */
