@@ -34,7 +34,8 @@
 
 @media(max-width: 700px) {
   .workContainer {
-    width: 70vw;
+    width: 95vw;
+    margin: 0 auto;
   }
 }
 
