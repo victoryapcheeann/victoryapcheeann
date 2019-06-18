@@ -23,7 +23,8 @@ export const myServices = [
 
 /* My works section */
 export const myWorksStyle1 = [
-  {title: 'Museum', picture: 'museum', description1: 'Museum App!', description2: 'Work in progress', link: 'https://nhb.netlify.com/', category: ['UX Design', 'HTML', 'CSS']},
+  {title: '3D-Model', picture: 'model', description1: '3D Model!', description2: 'Dashboard', link: 'https://threejs101.netlify.com/', category: ['Threejs', 'Angular']},
+  {title: 'Museum', picture: 'museum', description1: 'Museum App!', description2: 'UI Concept', link: 'https://nhb.netlify.com/', category: ['UX Design', 'Angular', 'CSS','HTML']},
   {title: 'Component-102', picture: 'design2', description1: 'Collection of best UI', description2: 'Part 2', link: 'https://component102.netlify.com/', category: ['UX Design', 'HTML', 'CSS']},
   {title: 'Charting-101', picture: 'chart2', description1: 'Ideas for', description2: 'charting & dashboard', link: 'https://charting101.netlify.com/', category: ['UX Design', 'Charting']},
   {title: '3D-Animation', picture: 'threact', description1: 'Cool Animation', description2: 'Three.js + Reactjs', link: 'https://threact-victoryap.netlify.com/', category: ['Threejs', 'Reactjs']},
