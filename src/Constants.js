@@ -23,6 +23,7 @@ export const myServices = [
 
 /* My works section */
 export const myWorksStyle1 = [
+  {title: 'Component103', picture: 'backround', description1: 'Component Design', description2: 'Part 3', link: 'https://component103.netlify.com/', category: ['Design', 'HTML', 'CSS']},
   {title: '3D-Model', picture: 'model', description1: '3D Model!', description2: 'Dashboard', link: 'https://threejs101.netlify.com/', category: ['Threejs', 'Angular']},
   {title: 'Museum', picture: 'museum', description1: 'Museum App!', description2: 'UI Concept', link: 'https://nhb.netlify.com/', category: ['UX Design', 'Angular', 'CSS','HTML']},
   {title: 'Component-102', picture: 'design2', description1: 'Collection of best UI', description2: 'Part 2', link: 'https://component102.netlify.com/', category: ['UX Design', 'HTML', 'CSS']},
@@ -31,7 +32,7 @@ export const myWorksStyle1 = [
   {title: 'Fifa', picture: 'fifa', description1: 'Make your own dream team!', description2: 'Win the world cup!', link: 'https://fifa-victoryap.netlify.com/', category: ['UX Design', 'React', 'Redux']},
   {title: 'Component-100', picture: 'design', description1: 'Best UI design online', description2: 'All in one place! Take a look!', link: 'https://victoryap-component100.netlify.com/', category: ['UX Design', 'HTML', 'CSS']},
   {title: 'Dasher', picture: 'chart', description1: 'Show how much you spend!', description2: 'Control your expenses!', link: 'https://victoryap-dasher.netlify.com/', category: ['UX Design', 'Data Visualisation']},
-  {title: 'Revents', picture: 'events', description1: 'Feeling bored?', description2: 'Come and join our events now!', link: '', category: ['Reactjs', 'Firebase', 'Redux']}
+  // {title: 'Revents', picture: 'events', description1: 'Feeling bored?', description2: 'Come and join our events now!', link: '', category: ['Reactjs', 'Firebase', 'Redux']}
 ];
 
 /* Achievement Section */
