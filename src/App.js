@@ -4,6 +4,7 @@ import scrollToComponent from 'react-scroll-to-component';
 import Zoom from 'react-reveal/Zoom';
 import Jump from 'react-reveal/Jump';
 import './App.css'
+import { unregister } from './registerServiceWorker';
 
 import About from './Components/About/About';
 import Portfolio from './Components/Portfolio/Portfolio';
@@ -58,5 +59,7 @@ class App extends Component {
     );
   }
 }
+
+unregister();
 
 export default App;
